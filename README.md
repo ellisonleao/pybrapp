@@ -3,6 +3,26 @@ PyBR Kivy App
 
 **Original APP made for [PyDelhiConf](https://github.com/pydelhi/pydelhi_mobile)**
 
+## Install using pip and virtualenv
+   - Create a virtualenv
+   - Install Cython first
+   - Install the dependencies
+
+### Create a virtualenv
+sudo apt install virtualenvwrapper
+echo "# Enable virtualenvwrapper\nsource /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> ~/.bashrc
+mkvirtualenv pybrapp
+mkdir -p ~/projects/python
+cd ~/projects/python
+git clone git@github.com:ellisonleao/pybrapp.git
+cd pybrapp
+
+### Install Cython first
+pip install -r run-this-first-requirements.txt
+
+### Install the dependencies
+pip install -r requirements.txt
+
 ## Kivy Installation:
 - https://kivy.org/docs/installation/installation.html
 
