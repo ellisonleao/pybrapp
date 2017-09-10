@@ -1,3 +1,4 @@
+# -*- coding=utf-8 -*-
 '''Navigation Screen
 '''
 from kivy.uix.screenmanager import Screen
@@ -36,31 +37,28 @@ class NavigationScreen(Screen):
             height: self.minimum_height
             MenuButton
                 id: bt_sched
-                text: 'Schedule'
+                text: 'Programação'
                 on_released: app.load_screen('ScreenSchedule', manager=app.navigation_manager)
             MenuButton
-                text: 'Sponsors'
+                text: 'Patrocinadores'
                 on_released: app.load_screen('ScreenSponsor', manager=app.navigation_manager)
             MenuButton
-                text: 'Venue'
+                text: 'Local'
                 on_released: app.load_screen('ScreenVenue', manager=app.navigation_manager)
             MenuButton
-                text: 'OpenSpaces'
-                on_released: app.load_screen('ScreenOpenSpaces', manager=app.navigation_manager)
-            MenuButton
-                text: 'DevSprints'
+                text: 'Sprints'
                 on_released: app.load_screen('ScreenDevSprints', manager=app.navigation_manager)
             MenuButton
                 text: 'Feedback'
                 on_released: app.load_screen('ScreenFeedback', manager=app.navigation_manager)
             MenuButton
-                text: 'Ticket'
+                text: 'Ingressos'
                 on_released: app.load_screen('ScreenTicket', manager=app.navigation_manager)
             MenuButton
-                text: 'Community'
+                text: 'Comunidade'
                 on_released: app.load_screen('ScreenCommunity', manager=app.navigation_manager)
             MenuButton
-                text: 'About'
+                text: 'Sobre'
                 on_released: app.load_screen('ScreenAbout', manager=app.navigation_manager)
 
 <TopBar@BoxLayout>
