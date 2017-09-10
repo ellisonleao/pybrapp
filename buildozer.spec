@@ -7,10 +7,10 @@ title = Python Brasil 2017
 package.name = conference
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.pydelhiconf
+package.domain = org.pybr
 
 # (str) Source code where the main.py live
-source.dir = ./pydelhiconf
+source.dir = ./pybr
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas,vs,fs,json,gif
