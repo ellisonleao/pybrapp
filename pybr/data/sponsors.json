@@ -4,61 +4,61 @@
       "name": "Python Software Foundation",
       "type": "Gold",
       "website": "https://www.python.org/psf/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/gold/psf.png"
+      "logo": "data/images/psf.png"
     },
     {
       "name": "Globo.com",
       "type": "Gold",
       "website": "http://talentos.globo.com/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/gold/globocom.png"
+      "logo": "data/images/globocom.png"
     },
     {
       "name": "Facebook",
       "type": "Gold",
       "website": "http://www.facebook.com/careers",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/gold/facebook.png"
+      "logo": "data/images/facebook.png"
     },
     {
       "name": "Necto Systems",
       "type": "Prata",
       "website": "https://www.nectosystems.com.br/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/silver/necto.png"
+      "logo": "data/images/necto.png"
     },
     {
       "name": "e-Shares",
       "type": "Prata",
       "website": "https://esharesinc.com/about",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/silver/eshares.png"
+      "logo": "data/images/eshares.png"
     },
     {
       "name": "Labcodes",
       "type": "Prata",
       "website": "http://www.labcodes.com.br/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/silver/labcodes.png"
+      "logo": "data/images/labcodes.png"
     },
     {
       "name": "Evolux",
       "type": "Bronze",
       "website": "https://www.evolux.net.br/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/bronze/evolux.png"
+      "logo": "data/images/evolux.png"
     },
     {
       "name": "Associação Python Brasil",
       "type": "Apoio",
       "website": "http://associacao.python.org.br/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/support/apyb.png"
+      "logo": "data/images/apyb.png"
     },
     {
       "name": "Una",
       "type": "Apoio",
       "website": "https://www.una.br/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/support/una.jpg"
+      "logo": "data/images/una.jpg"
     },
     {
       "name": "DNE",
       "type": "Apoio",
       "website": "http://devnaestrada.com.br/",
-      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/support/devnaestrada.png"
+      "logo": "data/images/devnaestrada.png"
     }
   ]
 }

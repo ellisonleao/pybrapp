@@ -1,7 +1,3 @@
-'''ScreenSponsor:
-Display all the logos of the sponsors.
-'''
-
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 from kivy.properties import ObjectProperty
@@ -11,8 +7,7 @@ from kivy.uix.stacklayout import StackLayout
 
 
 class Sponsor(StackLayout):
-    ''' This is a simple StackLayout that holds the image
-    '''
+    '''This is a simple StackLayout that holds the image'''
     data = ObjectProperty(None)
 
 
@@ -59,7 +54,7 @@ class ScreenSponsor(Screen):
             import webbrowser
             webbrowser.open(root.data['website'])
 
-<SponsorImage@ButtonBehavior+AsyncImage>
+<SponsorImage@ButtonBehavior+Image>
     size_hint:1,.8
     halign: 'center'
     padding: dp(10), dp(10)
