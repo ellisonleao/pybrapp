@@ -1,9 +1,9 @@
 {
  "0.0.1": [
    {
-    "logo": "https://cdn.explara.com/logo20170117124754.png",
-    "website":"https://conference.pydelhi.org/",
-    "about":"PyDelhi Conf is the annual conference hosted by PyDelhi community. It will be bringing together developers, experts, researchers, scientists, enthusiasts and companies dealing in python. It is a completely volunteer driven event, managed by PyDelhi(https://pydelhi.org/) Python Delhi Users Group. On its maiden year PyDelhi Conf attracted a total attendance of 300 people."
+    "logo": "http://2017.pythonbrasil.org.br/images/logo-python-bh.png",
+    "website":"http://2017.pythonbrasil.org.br/",
+    "about":"A PythonBrasil reúne centenas de pessoas durante 6 dias para discutir sobre software livre, práticas de desenvolvimento e Python. Este ano organizada pela comunidade Python de Belo Horizonte/MG com o apoio da APyB (Associação Python Brasil)."
    }
   ]
 }

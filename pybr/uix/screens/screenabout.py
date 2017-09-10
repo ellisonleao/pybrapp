@@ -1,3 +1,4 @@
+# -*- coding=utf-8 -*-
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 from kivy.factory import Factory
