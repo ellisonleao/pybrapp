@@ -1,18 +1,64 @@
 {
   "0.0.1": [
     {
-      "name": "Microsoft",
-      "type": "Platinum",
-      "website": "http://landinghub.visualstudio.com/python",
-      "logo": "http://blog.tmcnet.com/blog/rich-tehrani/uploads/new-microsoft-logo.png",
-      "about": "https://conference.pydelhi.org/#"
+      "name": "Python Software Foundation",
+      "type": "Gold",
+      "website": "https://www.python.org/psf/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/gold/psf.png"
     },
     {
-      "name": "Incubator IIM Lucknow Noida Campus",
+      "name": "Globo.com",
       "type": "Gold",
-      "website": "http://www.ecelliiml.com/incubation.php",
-      "logo": "https://paste.opensuse.org/images/97979538.jpg",
-      "about": "The incubation center at IIM Lucknow - 'Abhiyan' is a space for students and new age entrepreneurs who are interested in setting up their own venture. It aims transform the innovative ideas of students into viable business propositions.\n Abhiyan, a separate entity under the aegis of IIM Lucknow has a management council which directs and administers its functioning. The primary goal is to facilitate a platform for a budding entrepreneur to start a business venture with minimum risks. Abhiyan will ensure that the incubates are provided adequate infrastructural, financial and mentorship support throughout the period of incubation. Incubates will also have access to technological assistance which will be generated through mentors with multidisciplinary expertise.\nThe introduction of Placement Holiday in IIM Lucknow will further give boost to incubation activities in the campus."
+      "website": "http://talentos.globo.com/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/gold/globocom.png"
+    },
+    {
+      "name": "Facebook",
+      "type": "Gold",
+      "website": "http://www.facebook.com/careers",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/gold/facebook.png"
+    },
+    {
+      "name": "Necto Systems",
+      "type": "Prata",
+      "website": "https://www.nectosystems.com.br/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/silver/necto.png"
+    },
+    {
+      "name": "e-Shares",
+      "type": "Prata",
+      "website": "https://esharesinc.com/about",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/silver/eshares.png"
+    },
+    {
+      "name": "Labcodes",
+      "type": "Prata",
+      "website": "http://www.labcodes.com.br/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/silver/labcodes.png"
+    },
+    {
+      "name": "Evolux",
+      "type": "Bronze",
+      "website": "https://www.evolux.net.br/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/bronze/evolux.png"
+    },
+    {
+      "name": "Associação Python Brasil",
+      "type": "Apoio",
+      "website": "http://associacao.python.org.br/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/support/apyb.png"
+    },
+    {
+      "name": "Una",
+      "type": "Apoio",
+      "website": "https://www.una.br/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/support/una.jpg"
+    },
+    {
+      "name": "DNE",
+      "type": "Apoio",
+      "website": "http://devnaestrada.com.br/",
+      "logo": "http://2017.pythonbrasil.org.br/images/sponsors/support/devnaestrada.png"
     }
   ]
 }

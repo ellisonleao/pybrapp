@@ -10,7 +10,6 @@ from kivy.factory import Factory
 from kivy.uix.stacklayout import StackLayout
 
 
-
 class Sponsor(StackLayout):
     ''' This is a simple StackLayout that holds the image
     '''
@@ -18,7 +17,6 @@ class Sponsor(StackLayout):
 
 
 class ScreenSponsor(Screen):
-
 
     Builder.load_string('''
 <ScreenSponsor>
@@ -84,11 +82,10 @@ class ScreenSponsor(Screen):
             return
 
         sponsors = sponsors.get('0.0.1')
-        main_box = self.ids.main;
+        main_box = self.ids.main
         main_box.clear_widgets()
         for s in sponsors:
-            bl = Factory.Sponsor(size_hint_y=.8/len(sponsors), data=s)
+            bl = Factory.Sponsor(size_hint_y=.8 / len(sponsors), data=s)
             main_box.add_widget(bl)
         footer = Factory.Footer()
         main_box.add_widget(footer)
-
