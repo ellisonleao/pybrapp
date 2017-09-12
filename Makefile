@@ -3,10 +3,10 @@ PYTHON = python
 
 .PHONY: theming apk run
 
-run:
-	$(PYTHON) pybr/main.py -m screen:droid2,portrait -m inspector
 theming:
 	$(PYTHON) -m kivy.atlas pybr/data/default 1024 tools/theming/*.png
+run: theming
+	$(PYTHON) pybr/main.py -m screen:droid2,portrait -m inspector
 apk:
 	bulldozer android_new debug
 apk_release:
