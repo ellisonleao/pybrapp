@@ -3,7 +3,7 @@
 		{
 			"name": "PythonBrasil",
 			"about": "A comunidade Python Brasil reune grupos de usuários em todo o Brasil interessados em difundir e divulgar a linguagem de programação.",
-			"photo": "http://pythonbrasil.github.io/wiki/theme/img/site-logo.svg",
+			"photo": "data/images/pybr-community.png",
 			"social":{
 				"website": "http://python.org.br/",
 				"twitter": "https://twitter.com/pythonbrasil",
