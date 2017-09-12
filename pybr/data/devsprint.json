@@ -1,8 +1,8 @@
 {
-  "0.0.1": 
+  "0.0.1":
     {
       "image": "https://kushaldas.in/images/pyconin15-3.jpg",
-      "text1": "A sprint is a get-together of people involved in a project to further a focused development of the project. Sprints typically last from one week up to three weeks. Sprints have become popular events in some open-source projects.",
-      "text2": "Have you tried contributing to any Open Source project but lost because of not getting mentorship? Or Start contributing to any Open source project is still in your TODO list? If so, Dev sprint is the best place for you. During Dev sprint, Mentors/Contributors of Open source projects guides participants from generating development build to submit a patch for a bug. It is best opportunity to experience the culture of Open source. People from newbie to experienced together contribute to project. During the session if you are stuck you can solve your confusions instantly from the mentors. From past experience, we found dev sprint projects are not limited for conference days but participants are still active contributor from past year's Devsprint."
+      "text1": "O Sprint é um ambiente proporcionado pela conferência Python Brasil, para desenvolvimento e contribuição de projetos open source.",
+	  "text2": "A Python Brasil será entre os dias 6 a 11 de outubro de 2017, na cidade de Belo Horizonte/MG, sendo que os Sprints ocorrerão no dia 11 (último dia da conferência). Caso você ainda não saiba o que é um sprint você pode assistir o vídeo que o Alvaro Justen fez explicando tudo o que você precisa saber: https://www.youtube.com/watch?v=8QNjwSNd4s0 . Proposta de sprints estão sendo aceitas, https://speakerfight.com/events/python-brasil-13-sprints/ . A ideia das submissões de Sprint servirá para que os participantes da Python Brasil tenham ideia dos projetos, antes mesmo do evento. As sugestões de projetos para os Sprints irão continuar abertas até o último dia, e sem necessidade se submeter aqui no SpeakerFight, assim como nas conferências anteriores. Serão aceitos sprints em Português, Español, e English."
     }
 }
