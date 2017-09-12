@@ -38,6 +38,10 @@ PyBR Kivy App
 
     $ python pybr/main.py -m screen:droid2,portrait -m inspector
 
+Alternatively, you can use the command below to update theme and execute the application:
+
+    $ make run
+
 ### Help on screens
 - https://kivy.org/docs/api-kivy.modules.screen.html
 
