@@ -191,7 +191,7 @@ class ScreenSchedule(Screen):
         app.venue_name = event['venue']
         start_date = event['start_date']
         end_date = event['end_date']
-        
+
         dates = list(schedule.keys())[1:]
         # each day could have multiple tracks
         tracks = schedule['tracks']
