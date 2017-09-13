@@ -14,7 +14,7 @@ PyBR Kivy App
 
 ### Create a virtualenv
     $ sudo apt install virtualenvwrapper
-    $ echo "# Enable virtualenvwrapper\nsource /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> ~/.bashrc
+    $ echo -e "# Enable virtualenvwrapper\nsource /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> ~/.bashrc
     $ mkvirtualenv pybrapp
     $ mkdir -p ~/projects/python
     $ cd ~/projects/python
