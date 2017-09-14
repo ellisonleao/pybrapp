@@ -46,9 +46,6 @@ class NavigationScreen(Screen):
                 text: 'Sprints'
                 on_released: app.load_screen('ScreenDevSprints', manager=app.navigation_manager)
             MenuButton
-                text: 'Feedback'
-                on_released: app.load_screen('ScreenFeedback', manager=app.navigation_manager)
-            MenuButton
                 text: 'Ingressos'
                 on_released: app.load_screen('ScreenTicket', manager=app.navigation_manager)
             MenuButton
