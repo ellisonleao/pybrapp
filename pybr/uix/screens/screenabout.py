@@ -1,4 +1,5 @@
-# -*- coding=utf-8 -*-
+# -*- coding: utf-8 -*-
+
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 from kivy.factory import Factory
@@ -8,7 +9,7 @@ import webbrowser
 
 
 class ScreenAbout(Screen):
-    Builder.load_string('''
+    Builder.load_string("""
 <ScreenAbout>
     spacing: dp(9)
     name: 'ScreenAbout'
@@ -32,7 +33,7 @@ class ScreenAbout(Screen):
                     width: dp(200)
                     center_x: comm_desc.center_x
                     top: comm_desc.y - dp(10)
-        ''')
+        """)
 
     def on_pre_enter(self):
         self.ids.scroll.opacity = 0
