@@ -30,22 +30,20 @@ class ScreenVenue(Screen):
         Splitter
             sizable_from: 'top'
             MapView:
-                zoom: 11
-                lat: 28.6235184
-                lon: 77.3551479
+                zoom: 15
+                lat: -19.922624
+                lon: -43.937925
                 MapMarker
-                    lat: 28.6235184
-                    lon: 77.3551479
+                    lat: -19.922624
+                    lon: -43.937925
         BoxLayout:
             size_hint: 1, None
             height: dp(45)
             spacing: dp(13)
             padding: dp(4)
             ActiveButton:
-                text: 'Open Street View'
-            ActiveButton:
-                text: 'Get Directions'
+                text: 'Abrir Mapa'
                 on_release:
                     import webbrowser
-                    webbrowser.open('https://www.google.co.in/maps/dir/''/iim+lucknow+noida+campus')
+                    webbrowser.open('https://goo.gl/maps/Dv2jNT5qacF2')
 """)
