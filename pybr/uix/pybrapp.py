@@ -5,7 +5,7 @@ from kivy.lang import Builder
 
 
 class PybrAppScreenManager(ScreenManager):
-	Builder.load_string("""
+    Builder.load_string("""
 #:import WipeTransition kivy.uix.screenmanager.WipeTransition
 
 <PybrAppScreenManager>
