@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
+
 from kivy.factory import Factory
 from kivy.properties import ObjectProperty
 from kivy.lang import Builder
 from weakref import ref
 
+
 class TabbedCarousel(Factory.TabbedPanel):
-    '''Custom TabbedPanel using a carousel used in the Main Screen
-    '''
-    Builder.load_string('''
+    """Custom TabbedPanel using a carousel used in the Main Screen"""
+    Builder.load_string("""
 <TabbedCarousel>
     carousel: carousel
     do_default_tab: False
@@ -19,7 +21,7 @@ class TabbedCarousel(Factory.TabbedPanel):
         anim_cancel_duration: .54
         on_index: root.on_index(*args)
         id: carousel
-''')
+""")
 
     carousel = ObjectProperty(None)
 
@@ -31,7 +33,7 @@ class TabbedCarousel(Factory.TabbedPanel):
         n = len(self.tab_list)
         if idx in [0, 1]:
             scroll_x = 1
-        elif idx in [n-1, n-2]:
+        elif idx in [n - 1, n - 2]:
             scroll_x = 0
         else:
             scroll_x = 1. * (n - idx - 1) / (n - 1)
@@ -44,7 +46,7 @@ class TabbedCarousel(Factory.TabbedPanel):
 
     def on_index(self, instance, value):
         current_slide = instance.current_slide
-        
+
         if not hasattr(current_slide, 'tab'):
             return
         tab = current_slide.tab()
@@ -94,4 +96,3 @@ class TabbedCarousel(Factory.TabbedPanel):
             super(TabbedCarousel, self).add_widget(tp, index=index)
             return
         super(TabbedCarousel, self).add_widget(widget, index=index)
-
