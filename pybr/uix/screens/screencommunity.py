@@ -26,8 +26,8 @@ class ScreenCommunity(Screen):
                 row: 2
                 cols: 4
                 size_hint_y: None
-                padding: '9dp'
-                spacing: '9dp'
+                padding: '20dp'
+                spacing: '20dp'
         """)
 
     def on_pre_enter(self):
