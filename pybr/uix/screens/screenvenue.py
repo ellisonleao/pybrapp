@@ -22,6 +22,7 @@ class ScreenVenue(Screen):
                 halign: 'center'
                 size_hint_y: None
                 height: dp(25)
+                padding: dp(4), dp(8)
             AsyncImage:
                 id: img_venue
                 source: 'atlas://data/default/venue'
@@ -29,6 +30,7 @@ class ScreenVenue(Screen):
                 keep_ratio: True
         Splitter
             sizable_from: 'top'
+            padding: dp(13)
             MapView:
                 zoom: 15
                 lat: -19.922624
