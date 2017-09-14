@@ -2,7 +2,7 @@
  "0.0.1": [
    {
     "logo": "data/icon.png",
-    "website":" http://2017.pythonbrasil.org.br/",
+    "website": "http://2017.pythonbrasil.org.br/",
     "website_label": "Visite nossa página",
     "about":"A PythonBrasil reúne centenas de pessoas durante 6 dias para discutir sobre software livre, práticas de desenvolvimento e Python.\n\nEste ano organizada pela comunidade Python de Belo Horizonte/MG com o apoio da APyB (Associação Python Brasil)."
    }
