@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 from kivy.properties import ObjectProperty
@@ -8,13 +10,13 @@ from kivy.uix.scrollview import ScrollView
 
 
 class Sponsor(BoxLayout):
-    '''This is a simple BoxLayout that holds the image'''
+    """This is a simple BoxLayout that holds the image"""
     data = ObjectProperty(None)
 
 
 class ScreenSponsor(Screen):
 
-    Builder.load_string('''
+    Builder.load_string("""
 <ScreenSponsor>
     name: 'ScreenSponsor'
     ScrollView
@@ -68,11 +70,10 @@ class ScreenSponsor(Screen):
     on_release:
         import webbrowser
         webbrowser.open(self.parent.data['website'])
-''')
+""")
 
     def on_enter(self, onsuccess=False):
-        '''Series of actions to be performed when Schedule screen is entered
-        '''
+        """Series of actions to be performed when Schedule screen is entered"""
 
         # this should update the file on disk
         sponsors = get_data('sponsors', onsuccess=onsuccess)
