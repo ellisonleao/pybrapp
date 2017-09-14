@@ -6,6 +6,7 @@ from os.path import abspath, dirname
 
 from kivy.app import App
 from kivy.properties import ListProperty, StringProperty
+from uix.pybrapp import PybrAppScreenManager
 
 os.environ['KIVY_DATA_DIR'] = abspath(dirname(__file__)) + '/data'
 script_path = os.path.dirname(os.path.realpath(__file__))
@@ -84,8 +85,7 @@ class PyConApp(App):
         # button is pressed.
         self._navigation_higherarchy = []
         # this is the main entry point of our app
-        from uix.pydelhiconf import PyDelhiConfScreenManager
-        sm = PyDelhiConfScreenManager()
+        sm = PybrAppScreenManager()
         # This `sm` is the root widget of our app refered by app.root
         return sm
 
