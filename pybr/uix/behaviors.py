@@ -1,9 +1,6 @@
-''' 
-Custom Behaviors are defined in this module.
-'''
-from kivy.app import App
+# -*- coding: utf-8 -*-
+
 from kivy.animation import Animation
-from kivy.clock import Clock
 from kivy.event import EventDispatcher
 from kivy.properties import (NumericProperty, StringProperty,
                              ListProperty)
@@ -11,15 +8,14 @@ from kivy.graphics import (Rectangle, Color, Ellipse, StencilPop,
                            StencilPush, StencilUnUse, StencilUse)
 
 
-
 class TouchRippleBehavior(EventDispatcher):
 
-    __events__ = ('on_released',) 
+    __events__ = ('on_released',)
 
     ripple_rad = NumericProperty(10)
     ripple_pos = ListProperty([0, 0])
-    #141 ,188, 234
-    ripple_color = ListProperty((141./256., 188./256., 234./256., 1))
+    # 141 ,188, 234
+    ripple_color = ListProperty((141. / 256., 188. / 256., 234. / 256., 1))
     ripple_duration_in = NumericProperty(.3)
     ripple_duration_out = NumericProperty(.3)
     fade_to_alpha = NumericProperty(.3)
@@ -36,9 +32,9 @@ class TouchRippleBehavior(EventDispatcher):
             ripple_rad = self.ripple_rad
             self.ripple_color = [rc[0], rc[1], rc[2], 1.]
             anim = Animation(
-                ripple_rad=max(self.width, self.height) * self.ripple_scale, 
+                ripple_rad=max(self.width, self.height) * self.ripple_scale,
                 t=self.ripple_func_in,
-                ripple_color=[rc[0], rc[1], rc[2], self.fade_to_alpha], 
+                ripple_color=[rc[0], rc[1], rc[2], self.fade_to_alpha],
                 duration=self.ripple_duration_in)
             anim.bind(on_complete=self.anim_complete)
             anim.start(self)
@@ -46,16 +42,17 @@ class TouchRippleBehavior(EventDispatcher):
                 StencilPush()
                 Rectangle(size=self.size, pos=self.pos)
                 StencilUse()
-                self.col_instruction = Color(rgba=self.ripple_color, group='one')
+                self.col_instruction = Color(
+                    rgba=self.ripple_color, group='one')
                 self.ellipse = Ellipse(size=(ripple_rad, ripple_rad),
-                    pos=(ripple_pos[0] - ripple_rad/2., 
-                    ripple_pos[1] - ripple_rad/2.),
-                    group='one')
+                                       pos=(ripple_pos[0] - ripple_rad / 2.,
+                                            ripple_pos[1] - ripple_rad / 2.),
+                                       group='one')
                 StencilUnUse()
                 Rectangle(size=self.size, pos=self.pos)
                 StencilPop()
             self.bind(ripple_color=self.set_color, ripple_pos=self.set_ellipse,
-                ripple_rad=self.set_ellipse)
+                      ripple_rad=self.set_ellipse)
         return super(TouchRippleBehavior, self).on_touch_down(touch)
 
     def set_ellipse(self, instance, value):
@@ -63,16 +60,22 @@ class TouchRippleBehavior(EventDispatcher):
         ripple_pos = self.ripple_pos
         ripple_rad = self.ripple_rad
         ellipse.size = (ripple_rad, ripple_rad)
-        ellipse.pos = (ripple_pos[0] - ripple_rad/2., 
-            ripple_pos[1] - ripple_rad/2.)
+        ellipse.pos = (ripple_pos[0] - ripple_rad / 2.,
+                       ripple_pos[1] - ripple_rad / 2.)
 
     def set_color(self, instance, value):
         self.col_instruction.rgba = value
 
     def on_release(self):
         rc = self.ripple_color
-        anim = Animation(ripple_color=[rc[0], rc[1], rc[2], 0.], 
-            t=self.ripple_func_out, duration=self.ripple_duration_out)
+        anim = Animation(
+            ripple_color=[
+                rc[0],
+                rc[1],
+                rc[2],
+                0.],
+            t=self.ripple_func_out,
+            duration=self.ripple_duration_out)
         anim.bind(on_complete=self.anim_completed)
         anim.start(self)
 

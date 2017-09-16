@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
+from functools import partial
+
 from kivy.uix.screenmanager import Screen
 from kivy.uix.gridlayout import GridLayout
 from kivy.factory import Factory
 from kivy.lang import Builder
-from functools import partial
 
 
 class ScreenCommunity(Screen):
-    Builder.load_string('''
+    Builder.load_string("""
 <ScreenCommunity>
     name: 'ScreenCommunity'
     ScrollView
@@ -24,12 +26,12 @@ class ScreenCommunity(Screen):
                 row: 2
                 cols: 4
                 size_hint_y: None
-                padding: '9dp'
-                spacing: '9dp'
-        ''')
+                padding: '20dp'
+                spacing: '20dp'
+        """)
 
     def on_pre_enter(self):
-        self.ids.main.opacity=0
+        self.ids.main.opacity = 0
 
     def on_enter(self, onsuccess=False):
         from network import get_data

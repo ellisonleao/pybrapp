@@ -1,4 +1,5 @@
-# -*- coding=utf-8 -*-
+# -*- coding: utf-8 -*-
+
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 from kivy.factory import Factory
@@ -8,7 +9,7 @@ import webbrowser
 
 
 class ScreenAbout(Screen):
-    Builder.load_string('''
+    Builder.load_string("""
 <ScreenAbout>
     spacing: dp(9)
     name: 'ScreenAbout'
@@ -17,7 +18,7 @@ class ScreenAbout(Screen):
         ScrollGrid
             AsyncImage
                 id: imgbt
-                allow_stretch: True
+                allow_stretch: False
                 size_hint_y: None
                 height: dp(200)
             BackLabel
@@ -27,12 +28,11 @@ class ScreenAbout(Screen):
                 height: dp(45)
                 ActiveButton
                     id: but
-                    text: "Visit our website"
                     size_hint: None, None
                     width: dp(200)
                     center_x: comm_desc.center_x
                     top: comm_desc.y - dp(10)
-        ''')
+        """)
 
     def on_pre_enter(self):
         self.ids.scroll.opacity = 0
@@ -47,6 +47,7 @@ class ScreenAbout(Screen):
         about = about.get('0.0.1')[0]
         imbt = self.ids.imgbt
         imbt.source = about['logo']
+        self.ids.but.text = about['website_label']
         self.ids.but.on_released = partial(webbrowser.open, about['website'])
 
         self.ids.comm_desc.text = about['about']

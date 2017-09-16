@@ -1,19 +1,16 @@
-# -*- coding=utf-8 -*-
-'''Navigation Screen
-'''
+# -*- coding: utf-8 -*-
+
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
-from uix.navigationdrawer import NavigationDrawer
 from kivy.factory import Factory
+from uix.navigationdrawer import NavigationDrawer
 
 Factory.register('TouchRippleBehavior', module='uix.behaviors')
 
 
 class NavigationScreen(Screen):
-  '''
-  '''
 
-  Builder.load_string('''
+    Builder.load_string("""
 #:import WipeTransition kivy.uix.screenmanager.WipeTransition
 
 
@@ -48,12 +45,6 @@ class NavigationScreen(Screen):
             MenuButton
                 text: 'Sprints'
                 on_released: app.load_screen('ScreenDevSprints', manager=app.navigation_manager)
-            MenuButton
-                text: 'Feedback'
-                on_released: app.load_screen('ScreenFeedback', manager=app.navigation_manager)
-            MenuButton
-                text: 'Ingressos'
-                on_released: app.load_screen('ScreenTicket', manager=app.navigation_manager)
             MenuButton
                 text: 'Comunidade'
                 on_released: app.load_screen('ScreenCommunity', manager=app.navigation_manager)
@@ -95,4 +86,4 @@ class NavigationScreen(Screen):
             id: left_panel
         RightPanel
             opacity: 1-(self.x/root.right)
-''')
+""")

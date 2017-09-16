@@ -108,3 +108,6 @@ pybr/data/default-0.png
 # buildozer
 .buildozer/
 bin/
+
+# cache folder
+cache/*

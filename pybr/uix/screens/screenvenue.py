@@ -1,16 +1,14 @@
-'''ScreenSponsor:
-Display all the information about venue.
-'''
+# -*- coding: utf-8 -*-
 
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
-from kivy.uix.image import Image
 from kivy.garden.mapview import MapView
 from kivy.garden.mapview import MapMarker
 
+
 class ScreenVenue(Screen):
-    
-    Builder.load_string('''
+
+    Builder.load_string("""
 <ScreenVenue>
     name: 'ScreenVenue'
     BoxLayout
@@ -24,6 +22,7 @@ class ScreenVenue(Screen):
                 halign: 'center'
                 size_hint_y: None
                 height: dp(25)
+                padding: dp(4), dp(8)
             AsyncImage:
                 id: img_venue
                 source: 'atlas://data/default/venue'
@@ -31,24 +30,22 @@ class ScreenVenue(Screen):
                 keep_ratio: True
         Splitter
             sizable_from: 'top'
+            padding: dp(13)
             MapView:
-                zoom: 11
-                lat: 28.6235184
-                lon: 77.3551479 
+                zoom: 15
+                lat: -19.922624
+                lon: -43.937925
                 MapMarker
-                    lat: 28.6235184
-                    lon: 77.3551479
+                    lat: -19.922624
+                    lon: -43.937925
         BoxLayout:
             size_hint: 1, None
             height: dp(45)
             spacing: dp(13)
             padding: dp(4)
             ActiveButton:
-                text: 'Open Street View'
-            ActiveButton:
-                text: 'Get Directions'
+                text: 'Abrir Mapa'
                 on_release:
                     import webbrowser
-                    webbrowser.open('https://www.google.co.in/maps/dir/''/iim+lucknow+noida+campus') 
-''')
-
+                    webbrowser.open('https://goo.gl/maps/Dv2jNT5qacF2')
+""")

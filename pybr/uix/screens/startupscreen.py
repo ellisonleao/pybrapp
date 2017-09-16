@@ -1,14 +1,12 @@
-'''Startup screen
-'''
+# -*- coding: utf-8 -*-
 
 from kivy.uix.screenmanager import Screen
 from kivy.lang import Builder
 
 
 class StartupScreen(Screen):
-    '''
-    '''
-    Builder.load_string('''
+
+    Builder.load_string("""
 <SingleLineLabel@Label>
     text_size: self.size
     size_hint_y: None
@@ -87,6 +85,4 @@ class StartupScreen(Screen):
         allow_strech: True
         source: 'atlas://data/default/logo'
         size_hint_y: None
-
-''')
-
+""")

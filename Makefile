@@ -4,7 +4,7 @@ PYTHON = python
 .PHONY: theming apk run
 
 theming:
-	$(PYTHON) -m kivy.atlas pybr/data/default 1024 tools/theming/*.png
+	$(PYTHON) -m kivy.atlas pybr/data/default 1024 tools/theming/*.png tools/theming/*.jpg
 run: theming
 	$(PYTHON) pybr/main.py -m screen:droid2,portrait -m inspector
 apk:
