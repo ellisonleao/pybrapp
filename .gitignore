@@ -104,3 +104,7 @@ venv.bak/
 # kivy atlas
 pybr/data/default.atlas
 pybr/data/default-0.png
+
+# buildozer
+.buildozer/
+bin/

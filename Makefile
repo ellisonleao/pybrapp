@@ -8,6 +8,6 @@ theming:
 run: theming
 	$(PYTHON) pybr/main.py -m screen:droid2,portrait -m inspector
 apk:
-	bulldozer android_new debug
+	buildozer android debug
 apk_release:
-	buildozer android_new release
+	buildozer android release
