@@ -1,0 +1,130 @@
+{
+  "0.0.1": [
+    {
+      "02": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Paola Katherine", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Keynote"
+      }, 
+      "13": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Comunidade PythonMG", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Encerramento"
+      }, 
+      "01": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Comunidade PythonMG", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Abertura"
+      }, 
+      "07": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/2156035871289568/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Daniela Petruzalek", 
+          "social": [
+            {
+              "email": "daniela.petruzalek@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nUma introdu\u00e7\u00e3o ao mundo de Big Data com Apache Spark contextualizada dentro do ambiente da Globo.com. Aborda desde a defini\u00e7\u00e3o de Big Data, a mudan\u00e7a de paradigma de programa\u00e7\u00e3o para viabilizar a computa\u00e7\u00e3o paralela, os diferenciais tecnol\u00f3gicos do Spark e as suas aplica\u00e7\u00f5es pr\u00e1ticas na Globo.com. Finalizamos com uma breve demo do pyspark shell.\n", 
+        "title": "Big Data com Apache Spark na Globo.com"
+      }, 
+      "04": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://www.gravatar.com/avatar/b6afc45ba08adb4f42597eee82eab137?s=200&d=mm", 
+          "name": "Ryllari Santana", 
+          "social": [
+            {
+              "github": "https://github.com/ryllari", 
+              "facebook": "https://facebook.com/ryllarezita", 
+              "email": "ryllarimarques@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\n[Iniciante]Todo bom programador j\u00e1 passou por uma fase na vida em que a POG (Programa\u00e7\u00e3o Orientada a Gambiarra) foi sua melhor amiga. Junto com ela (ou at\u00e9 mesmo sem ela!), encontram-se erros comuns e alguns erros absurdos que s\u00e3o cometidos com frequ\u00eancia e que, na maioria das vezes passam despercebidos at\u00e9 mesmo por programadores experientes.\u00a0Nesta palestra, irei mostrar algumas dicas do que n\u00e3o fazer quando estiver programando em Python, utilizando como exemplos alguns c\u00f3digos e erros que programadores (do\u00a0Padawan ao Mestre Yoda) cometem sem nem sentir o peso.13(-10) reasons why voc\u00ea precisa assistir esta palestra:1. \"O inteligente aprende com os seus erros, o s\u00e1bio aprende com os erros dos outros.\"2. Conhecer os erros ajuda a evit\u00e1-los.3.\u00a0Python \u00e9 bom demais pra ser codado errado.\n", 
+        "title": "Como N\u00c3O programar em Python: crimes dolosos e com agravante"
+      }, 
+      "05": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars1.githubusercontent.com/u/458654?v=3", 
+          "name": "Bruno Rocha", 
+          "social": [
+            {
+              "email": "rochacbruno@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nO ecossistema do Python \u00e9 sustentado por alguns pilares que\u00a0s\u00e3o- comunidade, \u00a0- material te\u00f3rico, - ferramentas, - bibliotecas, - PSF - e a pr\u00f3pria linguagem.Nesta palestra eu gostaria de fazer uma reflex\u00e3o a respeito de cada um desses pilares do ecossistemaquais s\u00e3o as prioridades e em termos de qualidade quais s\u00e3o as vulnerabilidades de cada um deles.Mencionarei a import\u00e3ncia de todos mas focarei na qualidade do ecossistema de bibliotecas, ferramentas e material te\u00f3rico.A reflex\u00e3o ser\u00e1 em torno de responder algumas quest\u00f5es:- Como manter a qualidade das bibliotecas publicadas no PyPI?- Quais as maiores vulnerabilidades e como podemos ajudar a evitar os riscos?- A import\u00e2ncia de material te\u00f3rico de qualidade (gerado pela comunidade)- Podemos confiar em tudo que est\u00e1 disponivel no PyPI?- As abordagens de ensino e documenta\u00e7\u00e3o do ecossitema s\u00e3o seguras, inclusivas e de f\u00e1cil assimila\u00e7\u00e3o?- O que podemos fazer para ajudar a resolver os problemas identificados?Apresentarei alguns casos reais e exemplos de problemas encontrados e quest\u00f5es de seguran\u00e7a envolvendo principalmente o PyPI\u00a0\n", 
+        "title": "A Qualidade do Ecossistema Python - e o que podemos fazer para mant\u00ea-la"
+      }, 
+      "08": {
+        "speaker": {
+          "info": "Eterno estudante de ci\u00eancia da computa\u00e7\u00e3o sou um dos respons\u00e1veis pelo PyCursos e Python para Zumbis (MOOC de ensino de Python com mais de 30 mill inscri\u00e7\u00f5es). Tenho interesse em: Desenvolvimento de Software, Python, An\u00e1lise de Dados, Intelig\u00eancia Artificial, Engenharia de Avalia\u00e7\u00f5es, Design e Minimalismo.Interesses em: Desenvolvimento de Software, Python, An\u00e1lise de Dados, Intelig\u00eancia Artificial, Engenharia de Avalia\u00e7\u00f5es, Design e Minimalismo.", 
+          "photo": "https://avatars0.githubusercontent.com/u/223948?v=3", 
+          "name": "Gileno Filho", 
+          "social": [
+            {
+              "globe": "http://www.gilenofilho.com.br/", 
+              "github": "https://github.com/gileno", 
+              "facebook": "https://facebook.com/gilenofilho", 
+              "email": "contato@gilenofilho.com.br"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nJ\u00e1 tentou acessar uma p\u00e1gina atrav\u00e9s de um script Python e teve problemas porque a p\u00e1gina usava algum framework javascript como Angular, React...?Nessa palestra vou mostrar como criar um web crawler que consiga acessar essas p\u00e1ginas din\u00e2micas\u00a0simulando um navegador com Scrapy e Selenium.\n", 
+        "title": "Criando Web Crawlers com Scrapy e Selenium para p\u00e1ginas com Javascript"
+      }, 
+      "09": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars0.githubusercontent.com/u/1480558?v=4", 
+          "name": "Bianca Rosa", 
+          "social": [
+            {
+              "email": "me@biancarosa.com.br"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nA id\u00e9ia dessa palestra \u00e9 passar brevemente pela introdu\u00e7\u00e3o \u00e0 Redes Neurais e mostrar a implementa\u00e7\u00e3o de uma rede neural, mostrando como utilizar Python e Scikit para criar redes supervisionadas e n\u00e3o-supervisionadas.N\u00edvel: Intermedi\u00e1rioT\u00f3picos:- Redes Neurais?\u00a0\u00a0 - Introdu\u00e7\u00e3o\u00a0\u00a0 - Redes Supervisionadas\u00a0\u00a0 - Redes N\u00e3o-Supervisionadas\u00a0\u00a0 - Aplica\u00e7\u00f5es- Show me the code!\n", 
+        "title": "Redes Neurais com Python e Scikit"
+      }, 
+      "12": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Manuel Kaufmann", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Keynote"
+      }
+    }
+  ]
+}
