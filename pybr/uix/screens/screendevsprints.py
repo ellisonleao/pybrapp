@@ -33,8 +33,8 @@ class ScreenDevSprints(Screen):
 <devsprint>
     ScrollGrid
 
-        AsyncImage
-            source: root.data.get('image',"")
+        Image
+            source: 'atlas://data/default/sprint'
             size_hint_y: None
             allow_stretch: 'image' not in root.data
             height: dp(200)
