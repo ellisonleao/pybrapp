@@ -1,55 +1,239 @@
 {
   "0.0.1": [
     {
-      "02": {
+      "cd7fc59e7f038b861eb38bbe0e4de980": {
         "speaker": {
           "info": "", 
-          "photo": "", 
-          "name": "Paola Katherine", 
-          "social": []
-        }, 
-        "type": "talk", 
-        "description": "", 
-        "title": "Keynote"
-      }, 
-      "13": {
-        "speaker": {
-          "info": "", 
-          "photo": "", 
-          "name": "Comunidade PythonMG", 
-          "social": []
-        }, 
-        "type": "talk", 
-        "description": "", 
-        "title": "Encerramento"
-      }, 
-      "01": {
-        "speaker": {
-          "info": "", 
-          "photo": "", 
-          "name": "Comunidade PythonMG", 
-          "social": []
-        }, 
-        "type": "talk", 
-        "description": "", 
-        "title": "Abertura"
-      }, 
-      "07": {
-        "speaker": {
-          "info": "", 
-          "photo": "https://graph.facebook.com/v2.4/2156035871289568/picture?type=square&height=600&width=600&return_ssl_resources=1", 
-          "name": "Daniela Petruzalek", 
+          "photo": "https://www.gravatar.com/avatar/35beca46843e4adcbd43df1bc93ce38b?s=200&d=mm", 
+          "name": "Jessica Temporal", 
           "social": [
             {
-              "email": "daniela.petruzalek@gmail.com"
+              "email": "jessicatemporal@gmail.com"
             }
           ]
         }, 
         "type": "talk", 
-        "description": "\nUma introdu\u00e7\u00e3o ao mundo de Big Data com Apache Spark contextualizada dentro do ambiente da Globo.com. Aborda desde a defini\u00e7\u00e3o de Big Data, a mudan\u00e7a de paradigma de programa\u00e7\u00e3o para viabilizar a computa\u00e7\u00e3o paralela, os diferenciais tecnol\u00f3gicos do Spark e as suas aplica\u00e7\u00f5es pr\u00e1ticas na Globo.com. Finalizamos com uma breve demo do pyspark shell.\n", 
-        "title": "Big Data com Apache Spark na Globo.com"
+        "description": "\nConhe\u00e7a o projeto Serenata de Amor, uma iniciativa de ci\u00eancia de dados com c\u00f3digo aberto e financiamento coletivo que construiu uma plataforma de intelig\u00eancia artificial capaz de minerar e buscar discrep\u00e2ncias na presta\u00e7\u00e3o de contas dos gastos de nossos deputados federais.Entenda como o projeto come\u00e7ou, como ele foi feito, os promissores resultados alcan\u00e7ados at\u00e9 o momento, quais s\u00e3o os pr\u00f3ximos passos e como voc\u00ea pode nos ajudar a fiscalizar ainda mais os nossos representantes.[Ci\u00eancia de Dados, Open Source, Dados Abertos]\n", 
+        "title": "Serenata de Amor: Intelig\u00eancia artificial usando dados abertos governamentais"
       }, 
-      "04": {
+      "37f2823caf101866db71d66d0f9f80b7": {
+        "speaker": {
+          "info": "Eu aplico tecnologia como alavanca pra autonomia das pessoas.", 
+          "photo": "https://graph.facebook.com/v2.4/10154034810828098/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Henrique Bastos", 
+          "social": [
+            {
+              "globe": "http://henriquebastos.net/", 
+              "github": "https://github.com/henriquebastos", 
+              "facebook": "https://facebook.com/henriquebastos", 
+              "email": "henrique@bastos.net"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nUm conto fant\u00e1stico sobre as ciladas que transforma devs em zumbis, deixando escapar por entre os dedos a janela de oportunidades do presente.Nesta apresenta\u00e7\u00e3o voc\u00ea vai se imunizar contra as buzzwords para seguir a sua carreira sem sucumbir \u00e0s hypes.\u00a0\u00a0\u00a0\n", 
+        "title": "The Walking Dev"
+      }, 
+      "734a546d8993ecbb03fb719ae219d6ad": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/1373010302783747/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Dennys Azevedo", 
+          "social": [
+            {
+              "email": "dennys.bd@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nComo \u00e9 de conhecimento geral, Python, como ferramenta para data science,\u00a0est\u00e1 em grande crescimento.Nessa palestra eu tentarei desmistificar alguns caminhos b\u00e1sicos e ferramentas para aprender e se tornar auto-suficiente no estudo de Data Science com Python.Come\u00e7ando em \"Por que aprender Data Science e por que Pyhton\"Passando por Ferramentas, Portais, Livros e Criadores de Conte\u00fados.Tentando ao fim demonstrar de forma pr\u00e1tica como se focar a aprender por um ou mais desses meios.\n", 
+        "title": "O m\u00ednimo que voc\u00ea precisa saber para come\u00e7ar em Data Science com Python"
+      }, 
+      "c75dc7fd5ff3d28144028744ef3e6cbb": {
+        "speaker": {
+          "info": "Desenvolvedor e s\u00f3cio da http://www.vinta.com.br/", 
+          "photo": "https://avatars3.githubusercontent.com/u/1180884?v=4", 
+          "name": "Filipe Ximenes", 
+          "social": [
+            {
+              "globe": "http://www.vinta.com.br/blog/author/filipe-ximenes.html", 
+              "github": "https://github.com/filipeximenes", 
+              "facebook": "https://facebook.com/filipeaximenes", 
+              "email": "filipeximenes@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nPor quanto tempo \u00e9 aceit\u00e1vel deixar o seu usu\u00e1rio esperando uma resposta do servidor? Para a maioria dos casos a resposta certa \u00e9: o m\u00ednimo que a conex\u00e3o de internet dele permitir. Isso significa que o tempo que o seu servidor deve passar processando a requisi\u00e7\u00e3o deve ser o mais pr\u00f3ximo de zero poss\u00edvel. Nessa palestra vamos falar sobre o que s\u00e3o, para que servem, como \u00a0funcionam e quais s\u00e3o as boas pr\u00e1ticas a se seguir quando estamos desenvolvendo tarefas ass\u00edncronas.\n", 
+        "title": "(Quase) Tudo que voc\u00ea precisa saber sobre tarefas ass\u00edncronas"
+      }, 
+      "940122d090336b7d7fb0aaf2b61d85ea": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars0.githubusercontent.com/u/1480558?v=4", 
+          "name": "Bianca Rosa", 
+          "social": [
+            {
+              "email": "me@biancarosa.com.br"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nA id\u00e9ia dessa palestra \u00e9 passar brevemente pela introdu\u00e7\u00e3o \u00e0 Redes Neurais e mostrar a implementa\u00e7\u00e3o de uma rede neural, mostrando como utilizar Python e Scikit para criar redes supervisionadas e n\u00e3o-supervisionadas.N\u00edvel: Intermedi\u00e1rioT\u00f3picos:- Redes Neurais?\u00a0\u00a0 - Introdu\u00e7\u00e3o\u00a0\u00a0 - Redes Supervisionadas\u00a0\u00a0 - Redes N\u00e3o-Supervisionadas\u00a0\u00a0 - Aplica\u00e7\u00f5es- Show me the code!\n", 
+        "title": "Redes Neurais com Python e Scikit"
+      }, 
+      "f8cb5d4c521223caefe7208bd7785f1e": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Associados", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Associa\u00e7\u00e3o Python Brasil"
+      }, 
+      "c0a0300198b8456d3f22e84230c52c4c": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars2.githubusercontent.com/u/17428455?v=3", 
+          "name": "Rebeca Sarai", 
+          "social": [
+            {
+              "email": "rebecasaraiaguiar@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nTrabalhar como desenvolvedor de software pode ser um pouco frustrante, as vezes por estar preso a um projeto, as vezes por causa da linguagem que \u00e9 usada, mas principalmente quando voc\u00ea est\u00e1 em um lugar que n\u00e3o tem nada a ver com voc\u00ea. Nessa palestra eu vou falar sobre a minha experi\u00eancia saindo de uma grande empresa tradicional para uma empresa \u00e1gil e como essa mudan\u00e7a me mostrou que algumas coisas que muitas empresas neglig\u00eanciam s\u00e3o na verdade, extremamente importantes. Coisas como testes, continuous integration, pair programming, code review, open-source, como adaptar metodologias \u00e1geis a sua realidade, python (\u00e9 claro) e django, um framework que faz o desenvolvimento de uma aplica\u00e7\u00e3o web parecer simples\n", 
+        "title": "Previs\u00e3o de s\u00e9ries temporais com PyData e Intelig\u00eancia Artificial"
+      }, 
+      "dbe8c6005a376f97e1b8f4782893f5e3": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars2.githubusercontent.com/u/186126?v=3", 
+          "name": "\u00c1lvaro \"Turicas\" Justen", 
+          "social": [
+            {
+              "email": "alvarojusten@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nG\u00eanero e N\u00famero[1] \u00e9 uma iniciativa independente de jornalismo com o objetivo de aprofundar o debate sobre g\u00eanero que levanta, trata e exp\u00f5e dados e evid\u00eancias em conte\u00fados de m\u00faltiplos formatos - com reportagens em texto e em v\u00eddeo, visualiza\u00e7\u00f5es de dados interativas, ou mesmo apresentando os bancos de dados constru\u00eddos ou analisados ao longo das apura\u00e7\u00f5es. Transpar\u00eancia \u00e9 um valor inegoci\u00e1vel no nosso trabalho.Toda a parte de captura, convers\u00e3o e boa parte da an\u00e1lise de nossos dados \u00e9 feita utilizando Python, baseada em dados abertos e utilizando software livre. Nesta palestra ser\u00e3o apresentadas as principais reportagens feitas pelo projeto e os respectivos scripts Python utilizados, nos seguintes temas: esportes, pol\u00edtica, educa\u00e7\u00e3o e espa\u00e7o p\u00fablico.[1]: http://generonumero.media/\n", 
+        "title": "G\u00eanero e N\u00famero: Python ajudando nas quest\u00f5es de g\u00eanero brasileiras"
+      }, 
+      "26879625fae513566f7aefde82858018": {
+        "speaker": {
+          "info": "27, Brazil \ud83c\udde7\ud83c\uddf7 Based in Czech Republic \ud83c\udde8\ud83c\uddff Master's Degree in Computer Science \ud83c\udf93 Developer at Kiwi.com \u2764\ufe0f Travel, photography, technology and coding", 
+          "photo": "https://lh5.googleusercontent.com/-1QIpEAR2Qe8/AAAAAAAAAAI/AAAAAAAAABM/clGha7XEWR4/photo.jpg", 
+          "name": "K\u00e1tia Nakamura", 
+          "social": [
+            {
+              "globe": "http://katianakamura.com.br/", 
+              "github": "https://github.com/katiayn", 
+              "facebook": "https://facebook.com/katiaynakamura", 
+              "email": "katiayn@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nGeralmente, ao come\u00e7armos com\u00a0Django, nos deparamos com o sistema de templates como uma maneira de gerar p\u00e1ginas HTML dinamicamente.Nesta palestra quero introduzir uma alternativa separando o back-end do front-end: utilizando\u00a0o\u00a0Django Rest Framework (DRF) com ReactJS - biblioteca javascript para constru\u00e7\u00e3o de interfaces interativas.Vamos contruir uma pequena - e simples - aplica\u00e7\u00e3o para entender como\u00a0DRF e ReactJS\u00a0podem trabalhar juntos.\u00a0\n", 
+        "title": "Django Migrations: para entender e perder o medo"
+      }, 
+      "043344eb0f5ac7d43cdaf25a6999530f": {
+        "speaker": {
+          "info": "P\u00f3s - doutoranda no Departamento de Computa\u00e7\u00e3o Aplicada - Universidade de S\u00e3o Paulo e Professora da Universidade Est\u00e1cio de S\u00e1. Graduada em Inform\u00e1tica Biom\u00e9dica e Fonoaudiologia e Doutorado em Ci\u00eancias (Bioinform\u00e1tica e processamento de sinais e imagens)", 
+          "photo": "https://graph.facebook.com/v2.4/904912869648916/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Paula Santos", 
+          "social": [
+            {
+              "email": "paulac.usp@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nNessa palestra ser\u00e1 apresentada algumas das t\u00e9cnicas utilizadas em processamento, analise e classifica\u00e7\u00e3o de imagens e a implemanta\u00e7\u00e3o.\u00a0N\u00edvel: Intermedi\u00e1rio\u00a01. T\u00e9cnicas de processamento de imagens em python 1. 1 Subtra\u00e7\u00e3o de imagem, Gaussian, White top-hat e Black top-hat2. An\u00e1lise de Imagem 2.1 Extra\u00e7\u00e3o de vetor de caracter\u00edstica3. Classifica\u00e7\u00e3o usando Machine Leaning\n", 
+        "title": "An\u00e1lise de imagens e machine learning utilizando Python e openCV"
+      }, 
+      "447e812a0915900c572e580dc2d4c306": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://www.gravatar.com/avatar/95cdd9a367bf07112a7f3ea0e7ebd0dc?s=200&d=mm", 
+          "name": "Alice Adativa", 
+          "social": [
+            {
+              "email": "alice.adativa@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nRedes sociais, originalmente concebidas como ferramentas de comunica\u00e7\u00e3o, est\u00e3o sendo cada vez mais utilizadas como ferramentas inovadoras de coleta de dados para aplica\u00e7\u00f5es de monitoramento social e urbano. Aliando Python, ci\u00eancia dos dados e redes sociais, pode-se obter uma fonte de informa\u00e7\u00e3o \u00fatil sobre diversos aspectos do nosso cotidiano. Desta forma, aplica\u00e7\u00f5es interessantes vem surgindo, como estudos de comportamentos epidemiol\u00f3gicos, de monitoramento socioecon\u00f4mico e de an\u00e1lise da din\u00e2mica das cidades.Nesta palestra, vamos falar sobre como os dados provenientes de redes sociais podem ser combinados com os conceitos de ci\u00eancias dos dados e as diversas ferramentas Python, de forma que possamos obter informa\u00e7\u00f5es \u00fateis.Categorias: Python Cient\u00edfico, Ci\u00eancia dos Dados, An\u00e1lise de Dados\n", 
+        "title": "Python, ci\u00eancia dos dados e redes sociais: uma combina\u00e7\u00e3o poderosa"
+      }, 
+      "e42c05e9e6d74749b7259afd411dc3a1": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://www.gravatar.com/avatar/4c1463194810d6e37e73be12956f8760?s=200&d=mm", 
+          "name": "Elinaldo Monteiro", 
+          "social": [
+            {
+              "github": "https://github.com/https://github.com/elinaldosoft", 
+              "facebook": "https://facebook.com/https://www.facebook.com/elinaldosoft", 
+              "email": "elinaldo.java@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nNessa palestra\u00a0quero falar de algumas implementa\u00e7\u00f5es\u00a0de bots em Python, dividindo em duas partes t\u00e9cnica e\u00a0tend\u00eancias.N\u00edvel: Intermedi\u00e1rioNa parte t\u00e9cnica vou falar de algumas implementa\u00e7\u00f5es de bots para:1. Facebook2. Whatsapp3. Telegram4. Skype5. SlackNa parte de tend\u00eancias, vou falar um pouco do mercado de bots e empresas que est\u00e3o apoiando como:Facebook, Microsoft e IBM\n", 
+        "title": "Bots (automatizando tarefas) um funcion\u00e1rio que n\u00e3o reclama"
+      }, 
+      "ec8d8e292e83bae1f9ce6707f5713312": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars1.githubusercontent.com/u/458654?v=3", 
+          "name": "Bruno Rocha", 
+          "social": [
+            {
+              "email": "rochacbruno@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nO ecossistema do Python \u00e9 sustentado por alguns pilares que\u00a0s\u00e3o- comunidade, \u00a0- material te\u00f3rico, - ferramentas, - bibliotecas, - PSF - e a pr\u00f3pria linguagem.Nesta palestra eu gostaria de fazer uma reflex\u00e3o a respeito de cada um desses pilares do ecossistemaquais s\u00e3o as prioridades e em termos de qualidade quais s\u00e3o as vulnerabilidades de cada um deles.Mencionarei a import\u00e3ncia de todos mas focarei na qualidade do ecossistema de bibliotecas, ferramentas e material te\u00f3rico.A reflex\u00e3o ser\u00e1 em torno de responder algumas quest\u00f5es:- Como manter a qualidade das bibliotecas publicadas no PyPI?- Quais as maiores vulnerabilidades e como podemos ajudar a evitar os riscos?- A import\u00e2ncia de material te\u00f3rico de qualidade (gerado pela comunidade)- Podemos confiar em tudo que est\u00e1 disponivel no PyPI?- As abordagens de ensino e documenta\u00e7\u00e3o do ecossitema s\u00e3o seguras, inclusivas e de f\u00e1cil assimila\u00e7\u00e3o?- O que podemos fazer para ajudar a resolver os problemas identificados?Apresentarei alguns casos reais e exemplos de problemas encontrados e quest\u00f5es de seguran\u00e7a envolvendo principalmente o PyPI\u00a0\n", 
+        "title": "A Qualidade do Ecossistema Python - e o que podemos fazer para mant\u00ea-la"
+      }, 
+      "bc5d2bb93df49222952f396e6beded7d": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/100000286121230/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Bernardo Fontes", 
+          "social": [
+            {
+              "email": "bernardoxhc@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nO mundo vai muito al\u00e9m do postgres ou mysql! Nessa apresenta\u00e7\u00e3o, vou falar um pouco sobre o Neo4j, um banco de dados orientado a grafos, quais poss\u00edveis aplica\u00e7\u00f5es que podem se beneficiar do seu uso e exemplos de integra\u00e7\u00e3o com Python utilizando as bibliotecas py2neo e networkx. Pretendo falar sobre:1 - Apresentar\u00a0conceitualmente sobre grafos e sobre sua utilidade;2 - Apresentar o Neo4j com algumas opera\u00e7\u00f5es b\u00e1sicas;3 - Mostrar um exemplo em Python que:- crie um grafo com v\u00e1rios n\u00f3s;- crie rela\u00e7\u00f5es dentro desse grafo com pesos espec\u00edficos;- mostrar duas an\u00e1lises (menor caminho e centralidade) a partir do grafo\n", 
+        "title": "Navegando por grafos com Python"
+      }, 
+      "9c9a0adf23c93a66890e3bfd404375f7": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars2.githubusercontent.com/u/188964?v=4", 
+          "name": "Diego \"Duk\u00e3o\" Guimar\u00e3es", 
+          "social": [
+            {
+              "email": "diegodukao@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nKivy \u00e9 um framework multiplataforma que permite fazer aplica\u00e7\u00f5es em Python com interfaces inovadoras\u00a0para Linux, Windows, OS X, Android e iOS.\u00a0E \u00e9 um dos projetos em Python mais legais que tem, s\u00f3 que ainda \u00e9 muito pouco utilizado.\u00a0O objetivo dessa palestra \u00e9 apresentar o Kivy, mostrar o que \u00e9 poss\u00edvel fazer com ele e indicar o caminho pros primeiros passos.\u00a0Algumas perguntas que ser\u00e3o respondidas:- Funciona mesmo no celular? A performance \u00e9 decente? N\u00e3o fica feio?- Consigo acessar os recursos do celular?- Tem algum projeto em produ\u00e7\u00e3o pra gente ver? O povo usa mesmo?- Exemplos! Cad\u00ea exemplos de projetos livres usando Kivy pra eu aprender?Algumas observa\u00e7\u00f5es que n\u00e3o perguntam, e por isso mesmo que vou falar:- Kivy *N\u00c3O* e s\u00f3 pra celular! (vc n\u00e3o precisa usar gtk ou qt pra botar uma interface visual no seu programa que roda no computador)- A Kv Lang (linguagem de marca\u00e7\u00e3o do Kivy, usada para criar as interfaces) \u00e9 muito boa- D\u00e1 pra fazer jogo! \\o/\n", 
+        "title": "Kivy: Python no celular e em v\u00e1rios outros lugares!"
+      }, 
+      "3fc74512b3198bf854d7e5fd7769bb5e": {
         "speaker": {
           "info": "", 
           "photo": "https://www.gravatar.com/avatar/b6afc45ba08adb4f42597eee82eab137?s=200&d=mm", 
@@ -66,22 +250,7 @@
         "description": "\n[Iniciante]Todo bom programador j\u00e1 passou por uma fase na vida em que a POG (Programa\u00e7\u00e3o Orientada a Gambiarra) foi sua melhor amiga. Junto com ela (ou at\u00e9 mesmo sem ela!), encontram-se erros comuns e alguns erros absurdos que s\u00e3o cometidos com frequ\u00eancia e que, na maioria das vezes passam despercebidos at\u00e9 mesmo por programadores experientes.\u00a0Nesta palestra, irei mostrar algumas dicas do que n\u00e3o fazer quando estiver programando em Python, utilizando como exemplos alguns c\u00f3digos e erros que programadores (do\u00a0Padawan ao Mestre Yoda) cometem sem nem sentir o peso.13(-10) reasons why voc\u00ea precisa assistir esta palestra:1. \"O inteligente aprende com os seus erros, o s\u00e1bio aprende com os erros dos outros.\"2. Conhecer os erros ajuda a evit\u00e1-los.3.\u00a0Python \u00e9 bom demais pra ser codado errado.\n", 
         "title": "Como N\u00c3O programar em Python: crimes dolosos e com agravante"
       }, 
-      "05": {
-        "speaker": {
-          "info": "", 
-          "photo": "https://avatars1.githubusercontent.com/u/458654?v=3", 
-          "name": "Bruno Rocha", 
-          "social": [
-            {
-              "email": "rochacbruno@gmail.com"
-            }
-          ]
-        }, 
-        "type": "talk", 
-        "description": "\nO ecossistema do Python \u00e9 sustentado por alguns pilares que\u00a0s\u00e3o- comunidade, \u00a0- material te\u00f3rico, - ferramentas, - bibliotecas, - PSF - e a pr\u00f3pria linguagem.Nesta palestra eu gostaria de fazer uma reflex\u00e3o a respeito de cada um desses pilares do ecossistemaquais s\u00e3o as prioridades e em termos de qualidade quais s\u00e3o as vulnerabilidades de cada um deles.Mencionarei a import\u00e3ncia de todos mas focarei na qualidade do ecossistema de bibliotecas, ferramentas e material te\u00f3rico.A reflex\u00e3o ser\u00e1 em torno de responder algumas quest\u00f5es:- Como manter a qualidade das bibliotecas publicadas no PyPI?- Quais as maiores vulnerabilidades e como podemos ajudar a evitar os riscos?- A import\u00e2ncia de material te\u00f3rico de qualidade (gerado pela comunidade)- Podemos confiar em tudo que est\u00e1 disponivel no PyPI?- As abordagens de ensino e documenta\u00e7\u00e3o do ecossitema s\u00e3o seguras, inclusivas e de f\u00e1cil assimila\u00e7\u00e3o?- O que podemos fazer para ajudar a resolver os problemas identificados?Apresentarei alguns casos reais e exemplos de problemas encontrados e quest\u00f5es de seguran\u00e7a envolvendo principalmente o PyPI\u00a0\n", 
-        "title": "A Qualidade do Ecossistema Python - e o que podemos fazer para mant\u00ea-la"
-      }, 
-      "08": {
+      "2a7cbba54ac640e3a8686ef496c3211f": {
         "speaker": {
           "info": "Eterno estudante de ci\u00eancia da computa\u00e7\u00e3o sou um dos respons\u00e1veis pelo PyCursos e Python para Zumbis (MOOC de ensino de Python com mais de 30 mill inscri\u00e7\u00f5es). Tenho interesse em: Desenvolvimento de Software, Python, An\u00e1lise de Dados, Intelig\u00eancia Artificial, Engenharia de Avalia\u00e7\u00f5es, Design e Minimalismo.Interesses em: Desenvolvimento de Software, Python, An\u00e1lise de Dados, Intelig\u00eancia Artificial, Engenharia de Avalia\u00e7\u00f5es, Design e Minimalismo.", 
           "photo": "https://avatars0.githubusercontent.com/u/223948?v=3", 
@@ -99,22 +268,407 @@
         "description": "\nJ\u00e1 tentou acessar uma p\u00e1gina atrav\u00e9s de um script Python e teve problemas porque a p\u00e1gina usava algum framework javascript como Angular, React...?Nessa palestra vou mostrar como criar um web crawler que consiga acessar essas p\u00e1ginas din\u00e2micas\u00a0simulando um navegador com Scrapy e Selenium.\n", 
         "title": "Criando Web Crawlers com Scrapy e Selenium para p\u00e1ginas com Javascript"
       }, 
-      "09": {
+      "b8011bdfc12b2db32fb504ceeca5f804": {
         "speaker": {
           "info": "", 
-          "photo": "https://avatars0.githubusercontent.com/u/1480558?v=4", 
-          "name": "Bianca Rosa", 
+          "photo": "https://graph.facebook.com/v2.4/2050141818543450/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Ana Paula Mendes", 
           "social": [
             {
-              "email": "me@biancarosa.com.br"
+              "email": "anapaula.ds.mendes@gmail.com"
             }
           ]
         }, 
         "type": "talk", 
-        "description": "\nA id\u00e9ia dessa palestra \u00e9 passar brevemente pela introdu\u00e7\u00e3o \u00e0 Redes Neurais e mostrar a implementa\u00e7\u00e3o de uma rede neural, mostrando como utilizar Python e Scikit para criar redes supervisionadas e n\u00e3o-supervisionadas.N\u00edvel: Intermedi\u00e1rioT\u00f3picos:- Redes Neurais?\u00a0\u00a0 - Introdu\u00e7\u00e3o\u00a0\u00a0 - Redes Supervisionadas\u00a0\u00a0 - Redes N\u00e3o-Supervisionadas\u00a0\u00a0 - Aplica\u00e7\u00f5es- Show me the code!\n", 
-        "title": "Redes Neurais com Python e Scikit"
+        "description": "\nQuem nunca teve medo de come\u00e7ar?Nesta talk contarei para voc\u00ea sobre como tem sido a experi\u00eancia com Python durante 1 ano de aprendizado e como foi come\u00e7ar a aprender Python para ensinar para outras meninas na primeira iniciativa feminina de tecnologia do Piau\u00ed.\"Os navios est\u00e3o a salvo nos portos, mas n\u00e3o foi para ficar ancorados que eles foram criados.\" (Grace Hopper)[Iniciante, Comunidade]\n", 
+        "title": "Come\u00e7ando com Python - Aprendendo para ensinar, a melhor forma de programar!"
       }, 
-      "12": {
+      "60cb7c4c3ebbfd116725f670ab3468cf": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars0.githubusercontent.com/u/2891076?v=3", 
+          "name": "Matheus Souza Fernandes", 
+          "social": [
+            {
+              "email": "matheus.souza.fernandes@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nO portal e-Democracia\u00a0\u00e9 uma iniciativa da C\u00e2mara dos Deputados que visa ampliar a participa\u00e7\u00e3o social no processo legislativo e aproximar cidad\u00e3os e seus representantes por meio da intera\u00e7\u00e3o digital desenvolvido pelo Laborat\u00f3rio Hacker da C\u00e2mara dos Deputados.Nessa palestra ser\u00e3o abordados os seguintes t\u00f3picos:- O que \u00e9 o e-Democracia?- As ferramentas que comp\u00f5e a plataforma\u00a0 \u00a0 - Wikilegis:\u00a0plataforma para sugest\u00e3o de emendas aos textos legislativos (Python/Django)\u00a0 \u00a0 - Audiencias Interativas: plataforma de intera\u00e7\u00e3o em audiencias/eventos p\u00fablicos da C\u00e2mara dos Deputados\u00a0(Python/Django)\u00a0 \u00a0 - Discourse:\u00a0f\u00f3rum de discuss\u00f5es aberto para a sociedade (Ruby on Rails)- Como juntar\u00a0todas essas aplica\u00e7\u00f5es?-\u00a0Dificuldades que encontramos\n", 
+        "title": "Usando Python e Django para ampliar a democracia digital"
+      }, 
+      "70044d48557c0b204f3891bae6ef109f": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://www.gravatar.com/avatar/82f4345815443a1b1f6edfe474e6a0a0?s=200&d=mm", 
+          "name": "Ole Peter Smith", 
+          "social": [
+            {
+              "email": "ole.ufg@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nDizem que uma imagem diz mais do que mil palavras. Ent\u00e3o, uma anima\u00e7\u00e3o deve dizer mais do que mil elevado a tantos... Infelizmente a Matem\u00e1tica tem uma fama de al\u00e9m de ser chato, ser deficil. Agredita-se um fator decisiva ser o tradicional foco alg\u00e9brico, acima do geom\u00e9trico, no ensino desta disciplina, desde o ensino fundamental ate o n\u00edvel universit\u00e1rio. Isto em todas as \u00e1reas, inclusive nas \u00e1reas mais ligadas \u00e0 matem\u00e1tica, como inform\u00e1tica.Proponhe-se nesta palestra, usar a Geometria como um ponte de encontro entre calculos alg\u00e9bricos e computacionais (em Python) - e sua visualiza\u00e7\u00e3o/anima\u00e7\u00e3o. Escolhemos implementar os c\u00e1lculos em Python, primordialmente pela sutilidade desta linguagem possibilitar sobrecarregar opera\u00e7\u00f5es u/bin\u00e1rias (como +, -, *,== e print, to name a few...), possibilitando express\u00f5es como u=v+w e v=w*3 (mas n\u00e3o 3*w...) entre vetores e at\u00e9 matrices. Para gera\u00e7\u00e3o de imagens escolhemos SVG, por ser um formato textual, livre e escal\u00e1vel, permitindo a visualiza\u00e7\u00e3o de detalhes. Animamos seq\u00fc\u00eancias de SVGs geradas, usando o Carousel (do W3 Schools).Introduziremos conceitos b\u00e1sicos da Gemetria Diferencial - Velocidade, accelera\u00e7\u00e3o, comprimento arco e curvatura - atrav\u00e9s da exposi\u00e7\u00e3o de c\u00f3digo espec\u00edfico (Python) e anima\u00e7\u00f5es Carousel/SVG. Particularmente, expormos como visualiza\u00e7\u00e3o din\u00e2mica pode inspirar e coroborar um processo investigativo cient\u00edfico: uma visualiza\u00e7\u00e3o gerada computacionalmente, inspira um hip\u00f3tese - e desenvolvendo mais as computa\u00e7\u00f5es, providencia-se um meio para sua verifica\u00e7\u00e3o.As Curvas da Bosta, s\u00e3o curvas geradas por um ponto marcado numa circumfer\u00eancia, rolando, sem deslizar, em uma outra curva. Esta outra curva sendo uma reta (o eixo X), resulta em uma curva chamada Cicloid. Fazendo o mesmo no lado de fora, respectivamente lado de dentro, uma circumfer\u00eancia (fixa), as curvas geradas s\u00e3o Epicicloids, respectivamente Hipocicloids.A evoluta de uma curva, \u00e9 a curva tra\u00e7ada pelos seus centros de curvatura. Calculando num\u00e9ricamente a evoluta de um Cicloid, levanta-se o suspeito, que sua evoluta \u00e9 novamente uma evoluta. Verificamos, primeiro visualmente - depois matem\u00e1ticamente - a hipotese.\n", 
+        "title": "Geometria Computacional de Diferencial com Python e SVG: As Curvas da Bosta"
+      }, 
+      "015e99114be9088abe88ebf11cc798b0": {
+        "speaker": {
+          "info": "Graduado em Engenharia de Software pela Universidade de Bras\u00edlia, atuando como Analista de Infraestrutura na 4linux.", 
+          "photo": "https://graph.facebook.com/v2.4/1705767706106989/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Tiago Assun\u00e7\u00e3o", 
+          "social": [
+            {
+              "github": "https://github.com/TiagoAssuncao", 
+              "facebook": "https://facebook.com/tiago.ribeiro.351104", 
+              "email": "tiagoribeirodeassuncao@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nNesta palestra ser\u00e1 apresentada a solu\u00e7\u00e3o implementada para centralizar, automatizar e permitir que qualquer m\u00e1quina embarcada do case de um dos maiores Bancos do Pa\u00eds seja acessada remotamente para tarefas de gerenciamento e manuten\u00e7\u00e3o.As manuten\u00e7\u00f5es s\u00e3o orquestradas pelo Fabric, paralelizando e agendando tarefas com o Celery e todo o sistema \u00e9 mantido por um dashboard em Flask.Palavras Chave: Fabric, Celery, Flask, Embarcados.\n", 
+        "title": "Python na Manuten\u00e7\u00e3o de mais de 100 mil embarcados"
+      }, 
+      "b64f238d51fe542b20c85a0a8137a8d8": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars1.githubusercontent.com/u/805582?v=4", 
+          "name": "Celso Crivelaro", 
+          "social": [
+            {
+              "email": "celsocrivelaro@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nAPis conectam app a apps dando escalabildiade para produtos e neg\u00f3cios. Um bom projeto de API deixa sua aplica\u00e7\u00e3o segura, est\u00e1vel e escal\u00e1vel, deixando o neg\u00f3cio est\u00e1vel para internet ou mesmo internamente.Nesta talk, irei falar sobre o que levar em considera\u00e7\u00e3o quando se projeta uma API, as diferen\u00e7as de arquitetura para o backend que prov\u00ea uma API P\u00fablica, Microservi\u00e7os ou SPA e como manter o seu servi\u00e7o principal est\u00e1vel mesmo com uma API externa com grande volume de requisi\u00e7\u00f5es.Tamb\u00e9m falarei de como projetar o seu schema para mudan\u00e7as futuras, como escolher o tipo de schema (XML ou JSON), problemas de versionamento da API, autentica\u00e7\u00e3o e REST ou SOAP.\u00a0\u00a0Com esta talk voc\u00ea estar\u00e1 mais apto a tomar boas decis\u00f5es na arquitetura da sua API.\n", 
+        "title": "Projetos de APIs: O que pensar para APIs P\u00fablicas, Microsservi\u00e7os e SPAs"
+      }, 
+      "ec70d2ed087997b65faf2235d224f8e1": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://lh4.googleusercontent.com/-JTYOOwJIr0A/AAAAAAAAAAI/AAAAAAAAHEQ/vWMkwztjsKw/photo.jpg", 
+          "name": "Douglas Bastos", 
+          "social": [
+            {
+              "globe": "http://www.github.com/douglasbastos", 
+              "github": "https://github.com/douglasbastos", 
+              "facebook": "https://facebook.com/douglasbastosok", 
+              "email": "douglashsb@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nTestar unitariamente \u00e9 f\u00e1cil, mas quando temos uma depend\u00eancia externa no nosso c\u00f3digo, a implementa\u00e7\u00e3o do teste acaba demorando quando n\u00e3o sabemos usar direito os \"paranau\u00eas\" do mock.N\u00edvel: inicianteNessa palestra vou mostrar na pr\u00e1tica as diversas maneiras de mockar objetos e isolar seu c\u00f3digo test\u00e1vel de depend\u00eancia externas como APIs e bancos de dados.Falarei brevemente de teste unit\u00e1rio, qualidade de c\u00f3digo at\u00e9 me aprofundar sobre mocks no python.\n", 
+        "title": "Descomplicando os mocks"
+      }, 
+      "dadc617c57af1a49e75dadcf3d639879": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars3.githubusercontent.com/u/6271498?v=3", 
+          "name": "Diogo Martins", 
+          "social": [
+            {
+              "globe": "http://www.diogommartins.com/", 
+              "email": "magalhaesmartins@icloud.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nNivel: Intermedi\u00e1rioLocks? GIL? Multitasking? Corrotinas? Tulip ? async? \u00a0await? \u00a0event loop? Se tudo isso n\u00e3o faz sentido pra voc\u00ea, o objetivo dessa palestra \u00e9 mudar isso, dando desde uma explica\u00e7\u00e3o sobre concorr\u00eancia e paralelismo at\u00e9 o estado atual da comunidade, do ferramental, dos benef\u00edcios e onde\u00a0AsyncIO se encaixa.Vers\u00e3o palestra, com mais conte\u00fado sobre AsyncIO, desse post em duas partes: https://diogommartins.wordpress.com/2017/04/07/concorrencia-e-paralelismo-threads-multiplos-processos-e-asyncio-parte-1/\u00a0\u00a0\n", 
+        "title": "Concorr\u00eancia e Paralelismo - Threads, M\u00faltiplos processos e ASYNCIO"
+      }, 
+      "b898d13c45797e21889bcbe5726174b4": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars0.githubusercontent.com/u/155623?v=3", 
+          "name": "Alan Justino", 
+          "social": [
+            {
+              "globe": "http://www.apiregistro.com.br/", 
+              "github": "https://github.com/alanjds", 
+              "email": "alan.justino@yahoo.com.br"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nGrumpy \u00e9 um \"transpiler\" de Python para Golang, uma maneira de usar a\u00a0velocidade, concorr\u00eancia e paralelismo de Go escrevendo com a produtividade do c\u00f3digo Python. Est\u00e1 sendo desenvolvido no Google pelas pessoas ligadas ao Youtube como alternativa a reescrever manualmente grande quantidade de c\u00f3digo Python existente.CPython oferece concorr\u00eancia ass\u00edncrona via coroutines, gevent e async (PEP 492, \u00e0 partir de CPython 3.5). Isso funciona muito bem para c\u00f3digos I/O-Bound, como acesso \u00e0 rede e ao disco. Mas n\u00e3o consegue usar mais de 1 processador em sua aplica\u00e7\u00e3o CPU-Bound, como moedores de n\u00fameros. N\u00e3o consegue porque s\u00f3 tem 1 thread no Sistema Operacional, mesmo\u00a0com v\u00e1rias coroutines na fila e v\u00e1rios processadores ociosos. E mesmo se voc\u00ea abrir v\u00e1rias threads, s\u00f3 1 vai usar CPU ao mesmo tempo, devido ao famigerado GIL (Global Interpreter Lock).Golang \u00e9 uma linguagem feita\u00a0para atender demandas de alta concorr\u00eancia. N\u00e3o tem GIL e automaticamente aloca as Goroutines nos processadores dispon\u00edveis, usando bem mais do\u00a0hardware dispon\u00edvel.Grumpy \"traduz\" seu c\u00f3digo Python para ser compilado em Go.\u00a0Isso funciona muito bem mas introduz certos desafios, como incompatibilidade com a C-API do CPython e aus\u00eancia das chamadas\u00a0exec, eval e compile, por exemplo.Ser\u00e1 apresentado em 3 partes, com comparativos, exemplos e demonstra\u00e7\u00f5es:* Concorr\u00eancia e Paralelismo no CPython e Go Runtime* Grumpy Transpiler como alternativa ao CPython Runtime* Internals e desafios do runtime Grumpy\u00a0\n", 
+        "title": "Python Runtime sem GIL em Golang: Grumpy"
+      }, 
+      "2f5c7962393708eafc16c236d7db5599": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Rodolpho Eckhardt", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Keynote"
+      }, 
+      "3854c5e3252639a555fccc02125989cf": {
+        "speaker": {
+          "info": "Production Engineer @ Facebook", 
+          "photo": "https://graph.facebook.com/v2.4/1418848041536021/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Carla Souza", 
+          "social": [
+            {
+              "globe": "http://carlasouza.com/", 
+              "github": "https://github.com/carlasouza", 
+              "facebook": "https://facebook.com/carlasouzaa", 
+              "email": "carla.asouza@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nA Interface de Linha de Comando (CLI) \u00e9\u00a0uma das interfaces de usu\u00e1rio mais flex\u00edvel e poderosa.\u00a0CLIs\u00a0s\u00e3o as interfaces que eu mais utilizo trabalhando como\u00a0Production\u00a0Engineer\u00a0para\u00a0Facebook.Ter comandos bem estruturados, leg\u00edveis, n\u00e3o amb\u00edguos e a prova de erro humano s\u00e3o caracter\u00edsticas indispens\u00e1veis para que a CLI seja segura e f\u00e1cil de usar.Nessa palestra, eu irei introduzir boas pr\u00e1ticas utilizadas por linhas de comandos e como estruturar uma Interface de Linha de Comando do zero, ilustrando com exemplos de erros e acertos.\u00a0\u00a0\u00a0\n", 
+        "title": "Linha de Comando: como ser bem implementada e segura"
+      }, 
+      "99e4c6dd49599cec8f546965a705ee0f": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Andrew Godwin", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Keynote"
+      }, 
+      "a80e222d0d1004ba456103a424a7b26d": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/865201390216236/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Paula Grangeiro", 
+          "social": [
+            {
+              "email": "animegirl.pchan@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nQuantas vezes voc\u00ea j\u00e1 ouviu (ou mesmo disse) que \"Desenvolver testes s\u00e3o uma perda de tempo?\". Nesta talk iremos demostrar porque voc\u00ea deve incluir os testes no seu ciclo de desenvolvimento e o real ganho disso para o projeto.N\u00edvel: InicianteO que iremos abordar?- Breve defini\u00e7\u00e3o sobre testes unit\u00e1rios e como fazer em Python- Melhorando a qualidade de c\u00f3digo utilizando testes \u00a0 \u00a0 \u00a0 - O que \u00e9 TDD \u00a0 \u00a0 \u00a0 - Como iniciar em TDD- Automatizando deploy com a ajuda de testes \u00a0 \u00a0 \u00a0 - O que \u00e9 Integra\u00e7\u00e3o cont\u00ednua \u00a0 \u00a0 \u00a0 - Automatizando rotinas de deploy- Outras vantagens da ado\u00e7\u00e3o de testes \u00a0 \u00a0 \u00a0 - Testes como documenta\u00e7\u00e3o do projeto- Conclus\u00e3o\n", 
+        "title": "Agilizando o ciclo de desenvolvimento de software com a ajuda de testes unit\u00e1rios"
+      }, 
+      "7bcfa5c3f07b6083055252b3f01d3fdd": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars2.githubusercontent.com/u/613912?v=4", 
+          "name": "Renato Oliveira", 
+          "social": [
+            {
+              "globe": "http://www.labcodes.com.br/", 
+              "github": "https://github.com/renatooliveira", 
+              "facebook": "https://facebook.com/renatosoliveira", 
+              "email": "renato+github@labcodes.com.br"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nSoftware \u00e9 um organismo vivo. Ele nasce, cresce e algumas vezes, adoece. Trabalhar com c\u00f3digo legado \u00e9 uma experi\u00eancia que todo programador j\u00e1 passou ou ir\u00e1 passar em sua carreira. \u00c9 muito comum encontrar c\u00f3digo repetido, que voc\u00ea n\u00e3o sabe se funciona ou at\u00e9 se est\u00e1 sendo usado. Nesta palestra vou dar algumas dicas de como melhorar a sa\u00fade da sua base de c\u00f3digo e falar de algumas t\u00e9cnicas de refatora\u00e7\u00e3o.\n", 
+        "title": "Trabalhando com c\u00f3digo legado"
+      }, 
+      "eab7c0dc175a679243e0eb81daf634bd": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Comunidade PythonMG", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Encerramento"
+      }, 
+      "32eecceefb5cf14cb40222221cd95ffa": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://www.gravatar.com/avatar/7e3eb83614b34d91d1587eaab44bcf5d?s=200&d=mm", 
+          "name": "Laura Panzariello", 
+          "social": [
+            {
+              "github": "https://github.com/laurapanzariello", 
+              "facebook": "https://facebook.com/laurapanzariello", 
+              "email": "laura.panzariello@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nCategoria: Infra, Automatiza\u00e7\u00e3o, DevOpsN\u00edvel: InicianteA ideia \u00e9 apresentar a arquitetura Spine and Leaf utilizada com Fabric L3 ECMP, uma arquitetura projetada para garantir a escalabilidade, rapidez e efici\u00eancia do tr\u00e1fego do data center da Globo.com. Al\u00e9m disso, apresentar o desenvolvimento da ferramenta para provisionamento automatizado das redes e seus equipamentos escrita em Python.* Conceito e vantagens da arquitetura Spine and Leaf * Conceito e vantagens de Pod no Data Center* Provisionamento automatizado utilizando uma ferramenta desenvolvida utilizando Python e Django.\u00a0\n", 
+        "title": "Provisionamento de redes no data center Globo.com com Python"
+      }, 
+      "233ce75f1dbec25a7319ef4a003aa099": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars0.githubusercontent.com/u/3246075?v=4", 
+          "name": "Nicolle Cysneiros", 
+          "social": [
+            {
+              "email": "nicolle.cysneiros@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nVoc\u00ea passa horas definindo sua API REST seguindo as boas pr\u00e1ticas de defini\u00e7\u00e3o e acesso a recursos, para no final das contas acabar criando endpoints a mais, afim de n\u00e3o prejudicar a performance da sua aplica\u00e7\u00e3o? Por mais que voc\u00ea procure definir uma sintaxe universal para definir os recursos da sua API REST, voc\u00ea acaba tendo algumas views da sua aplica\u00e7\u00e3o que precisa realizar mais de uma requisi\u00e7\u00e3o para que possa exibir todos os dados necess\u00e1rios? Esses talvez sejam alguns sinais de que sua API n\u00e3o necessariamente precise seguir os princ\u00edpios REST.Para resolver esse problema, o Facebook criou o GraphQL: uma linguagem de consulta para APIs. O GraphQL permite a cria\u00e7\u00e3o de um \u00fanico endpoint \u201cinteligente\u201d, capaz de responder perguntas complexas, ao inv\u00e9s de um conjunto de endpoints mais simples como proposto pela arquitetura REST. Nessa palestra, irei apresentar em mais detalhes sobre essa linguagem e estabelecer uma compara\u00e7\u00e3o com sistemas que utilizam a abordagem REST. Tamb\u00e9m irei falar sobre os principais componentes do GraphQL API e mostrar como podemos construir e consumir uma API usando GraphQL e Python.Outline:Introdu\u00e7\u00e3oFrustra\u00e7\u00f5es de um desenvolvedor full-stackO que \u00e9 GraphQL?Evolu\u00e7\u00e3o e Ado\u00e7\u00e3o de GraphQLGraphQL vs RESTExemploVantagens e DesvantagensComponentesQuerySchemaResolversGraphQL + Python = GrapheneExemploGraphene Django\n", 
+        "title": "GraphQL: nem sempre REST \u00e9 a melhor alternativa para sua API"
+      }, 
+      "55a898578181414c4ac83afe8ef8b41f": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://lh6.googleusercontent.com/-q-D1R6lcFnU/AAAAAAAAAAI/AAAAAAAAA1U/UJu8Vin1e-c/photo.jpg", 
+          "name": "Lais Varej\u00e3o", 
+          "social": [
+            {
+              "email": "laisvarejao@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nDesenvolvedores sabem: n\u00e3o existe software livre de bugs. Crises s\u00e3o iminentes. Como mitigar, ent\u00e3o, seu potencial danoso? Como gerenciar, por exemplo, um bug que afeta metade dos usu\u00e1rios de um sistema? Nesta talk eu irei compartilhar, entre outros casos, minha experi\u00eancia gerenciando crises de um sistema de assinaturas sediado em NY. Iremos ver diferentes cases, poss\u00edveis fragilidades de c\u00f3digo que podem levar a bugs graves e o passo a passo de processos de gest\u00e3o de crises. Finalmente, veremos como lidar com a expectativa do cliente, desde a descoberta do bug at\u00e9 a recupera\u00e7\u00e3o dos dados afetados.\n", 
+        "title": "Salvando grandes projetos"
+      }, 
+      "6fa11bc8799e3caca3e432ba23c7792b": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://www.gravatar.com/avatar/bd7dbe61d56c5e3bad64f6b77f462984?s=200&d=mm", 
+          "name": "Darlene Medeiros", 
+          "social": [
+            {
+              "email": "darlenedms3@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nSempre que iniciamos um novo projeto queremos que ele seja perfeito, o c\u00f3digo tem que ser bem escrito, com alta coes\u00e3o, baixo acoplamento, SOLID, KISS, DRY, YAGNI, testes automatizados e padr\u00f5es de c\u00f3digo, mas um ponto que nem sempre refletimos \u00e9 sobre a estrutura da aplica\u00e7\u00e3o.Meu objetivo nessa palestra \u00e9 apresentar alguns padr\u00f5es arquiteturais (MVC, event-driven, microservices e pipe and filter) em Python, utilizando exemplos de frameworks como Django, Flask e Tornado, e te ajudar a entender como eles funcionam.\n", 
+        "title": "Padr\u00f5es Arquiteturais, muito al\u00e9m do MVC"
+      }, 
+      "9df85297eee71d86d59906978396e29a": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://www.gravatar.com/avatar/fe8d19d6ad15194b518f594984b3a458?s=200&d=mm", 
+          "name": "Pyladies Brasil", 
+          "social": [
+            {
+              "globe": "http://brasil.pyladies.com/", 
+              "github": "https://github.com/pyladies-brazil", 
+              "facebook": "https://facebook.com/PyLadiesBrazil", 
+              "email": "brazil@pyladies.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\n2017 foi o ano em que ocorreram mais Django Girls no Brasil. Em sua maioria, as organizadoradoras dos workshops tamb\u00e9m fazem parte das PyLadies.Venha conhecer um panorama de como foi o trabalho desse ano de trazer mais mulheres pro mundo da tecnologia.\n", 
+        "title": "PyLadies e Django Girls promovendo a diversidade na tecnologia"
+      }, 
+      "953e4fdb73dfca1a6433944e2dcf7060": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Carlos Henrique Co\u00ealho", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Python e tipagem est\u00e1tica"
+      }, 
+      "c9074f92a8ccf8f2f3e9c7d021c47012": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Associados", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Associa\u00e7\u00e3o Python Brasil"
+      }, 
+      "a445192937e1313ebebc01355284816e": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://lh5.googleusercontent.com/-AQB28vqL2bQ/AAAAAAAAAAI/AAAAAAAACqU/1XxemlUFxRs/photo.jpg", 
+          "name": "Thomaz Reis", 
+          "social": [
+            {
+              "email": "thomaz.reis@corp.globo.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nEntenda o que signfica os \"yield\" que voc\u00ea encontra no c\u00f3digo e para o que eles servem. Tamb\u00e9m entenda como isso permitiu a programa\u00e7\u00e3o assincrona com corotinas. Vamos abordar tamb\u00e9m como o Assync / Await do Python 3.5 deixou tudo ainda melhor e mais claro.N\u00edvel: Intermedi\u00e1rio / Avan\u00e7ado\n", 
+        "title": "Generators e Programa\u00e7\u00e3o Assincrona com Python"
+      }, 
+      "64799727277226358160760e8c6eed5b": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Comunidade PythonMG", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Abertura"
+      }, 
+      "d603942f73c4c9dccbf0957f74756245": {
+        "speaker": {
+          "info": "Mestre em Ci\u00eancia da computa\u00e7\u00e3o na \u00e1rea de Redes e sistemas distribu\u00eddos pela UFMG. Engenheiro de software s\u00eanior na Globo.com.", 
+          "photo": "https://avatars2.githubusercontent.com/u/759784?v=3", 
+          "name": "Gustavo Pantuza", 
+          "social": [
+            {
+              "globe": "https://blog.pantuza.com/", 
+              "github": "https://github.com/pantuza", 
+              "facebook": "https://facebook.com/pantuza", 
+              "email": "gustavopantuza@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nEntenda como bibliotecas Python como PIL, ScyPy, Numpy fazem interface com m\u00f3dulos em C compilados dispon\u00edvel no sistema operacional.\u00a0Nativamente o Python te permite fazer isso. Essa palestra visa apresentar os conceitos, os recursos do compilador/interpretador Python para permitir essa tipo de intera\u00e7\u00e3o entre as linguagens. Um m\u00f3dulo C / Python ser\u00e1 apresentado como exemplo.\n", 
+        "title": "Wrapping C libraries into Python interfaces"
+      }, 
+      "b7adfd7dc82db7e93011bd536473f1f2": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/800133810122133/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Talita Rossari", 
+          "social": [
+            {
+              "email": "rossaritalita@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nVou falar sobre o meu relacionamento com o Flask depois de anos em uma paix\u00e3o adolescente com o Django.N\u00edvel: Intermedi\u00e1rioNesta Talk voc\u00ea vai ver:- Uma MINI compara\u00e7\u00e3o entre os dois (Para mostrar a diferen\u00e7a)- Cada etapa deste novo relacionamento- O que eu aprendi com esse relacionamento- O que eu mais gostei no Flask- O que eu mais senti falta- O que eu n\u00e3o senti falta- Na minha humilde opini\u00e3o, quando usar Django ou Flask?Trilhas: Framework; Web; CarreiraPS: Esta palestra n\u00e3o tem como intuito discutir qual Framework \u00e9 melhor (At\u00e9 porque, viraria uma terceira guerra mundial).\n", 
+        "title": "O Flask roubou meu cora\u00e7\u00e3o"
+      }, 
+      "1080811cc2da1435c56a33e732eb546a": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars0.githubusercontent.com/u/4183188?v=4", 
+          "name": "H\u00e9lio de Meira Lins", 
+          "social": [
+            {
+              "github": "https://github.com/meiralins", 
+              "email": "helio@meiralins.org"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nAs runas do mapa de\u00a0Thr\u00f3r guiam a turma do livro \"O Hobbit\" em uma aventura para retomar a Montanha Solit\u00e1ria. Decifrar as runas e descobrir um caminho de entrada para Erebor \u00e9 um dos primeiros desafios nessa jornada. Nessa palestra, vamos definir o problema de traduzir as runas, analisar poss\u00edveis estrat\u00e9gias de solu\u00e7\u00e3o e finalmente usar livros do maior romancista do brasil para \"aprender portugu\u00eas\" e resolver o problema.\u00a0N\u00edvel: InicianteCategorias: Intelig\u00eancia Artificial, Otimiza\u00e7\u00e3o\n", 
+        "title": "Decifrando as Runas dos An\u00f5es com Python e Machado de Assis"
+      }, 
+      "fc697c3b101435fa2e268ff0be5ecd0d": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Allison Kaptur", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Keynote"
+      }, 
+      "d0887d3dae98647858f2558b8e50e318": {
         "speaker": {
           "info": "", 
           "photo": "", 
@@ -124,6 +678,154 @@
         "type": "talk", 
         "description": "", 
         "title": "Keynote"
+      }, 
+      "4d26003c95c16d131c6a12e43f9d6348": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/10154587453977411/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Navid Sheikhol", 
+          "social": [
+            {
+              "email": "navid@navid.it"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nFBJE is a framework used at Facebook for developing workflows in Python.It is extremely scalable as it uses a distributed scheduler to leverage multiple worker nodes. As workers join and leave the execution pool due to hardware volatility, running jobs automatically migrate to active nodes while persisting their contextual data. Logs from each individual job are forwarded and stored centrally for users to access directly, searched or aggregated in various ways.Its ability of running long lasting jobs, easily access to logs and creating jobs using an API has made FBJE very popular for implementing a variety of automation workflows ranging from hardware provisioning, software deployment and alarms auto-remediation.\n", 
+        "title": "Facebook Job Engine (FBJE): a framework for developing\n        scalable workflows in Python"
+      }, 
+      "89f891b9aa0241fbbf49adf71ea90bd8": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Paola Katherine", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Keynote"
+      }, 
+      "f463fa3b601f977add97281325d5a776": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars0.githubusercontent.com/u/459390?v=4", 
+          "name": "Rael Max", 
+          "social": [
+            {
+              "email": "contato@raelmax.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nO \"Core\" \u00e9 o\u00a0CMS criado em 2009 com a miss\u00e3o de ser a base para a constru\u00e7\u00e3o de todos os portais da Globo.com. 8 anos se passaram, a internet mudou, os desafios mudaram e \u00e9 hora de aposentar esse soldado em grande estilo.Nessa talk falarei sobre como tem sido esse processo de aposentadoria, os desafios da migra\u00e7\u00e3o dessa aplica\u00e7\u00e3o Django para uma nova arquitetura baseada em microservi\u00e7os e como estamos fazendo isso com o menor impacto poss\u00edvel para os usu\u00e1rios e para os editores dos portais.\n", 
+        "title": "O fim de uma era: os desafios de transformar um monolito de 8 anos em microservi\u00e7os"
+      }, 
+      "8a72bf94425bf29c87184275ad9f6b19": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/1439665433025298/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Anderson Resende", 
+          "social": [
+            {
+              "email": "andersonresende86@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nSe voc\u00ea j\u00e1 usou lambda, maps ou comprehensions em Python, voc\u00ea j\u00e1 esta usando aspectos da programa\u00e7\u00e3o funcional. Vamos explicar de forma simples o que \u00e9 programa\u00e7\u00e3o funcional, quais s\u00e3o as constru\u00e7\u00f5es funcionais existentes em Python e como podemos us\u00e1-las para melhorar nosso c\u00f3digo e prevenir bugs. Vamos \u00a0tamb\u00e9m descomplicar conceitos como Side Effects, imutabilidade, c\u00f3digo declarativo, e expressions.T\u00f3picos a serem abordados:1) Introdu\u00e7\u00e3o a programa\u00e7\u00e3o Funcional:- Paradigma Funcional X Imperativo- Muta\u00e7\u00e3o X Imutabilidade- Expressions\u00a0X Statments- First-Class and High-Order functions2) Constru\u00e7\u00f5es Funcionias em Python:- Lambda- Map, Filter, Reduce- Compreehensions- Partial, Comp, Operators3) Modulos:- Functools- Itertools\n", 
+        "title": "A Programa\u00e7\u00e3o Funcional em Python, de forma simples"
+      }, 
+      "fa11560c816e80cdbd65db58ca36d120": {
+        "speaker": {
+          "info": "I\u2019m Artur Rodrigues, and I\u2019m a Production Engineer at Facebook taking care of its MySQL Infrastructure from London, United Kingdom.\nBefore joining FB, I worked as a Software Engineer at IDXP Analytics where I captured probe requests on OpenWRT powered routers, built big data algorithms using scientific packages in Python, developed RESTful APIs with Rails and PostgreSQL and handled all of the DevOps efforts involved in collecting millions of data points every week.", 
+          "photo": "https://avatars4.githubusercontent.com/u/119276?v=4", 
+          "name": "Artur Rodrigues", 
+          "social": [
+            {
+              "globe": "http://www.artur-rodrigues.com/", 
+              "github": "https://github.com/arturhoo", 
+              "facebook": "https://facebook.com/arturhoo", 
+              "email": "arturhoo@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nUma equipe de apenas 14 engenheiros cuida da infraestrutura do principal banco de dados do Facebook, suportando quase 1.9 bilh\u00f5es de usu\u00e1rios/m\u00eas. Toda a\u00e7\u00e3o no Instagram, Messenger, WhatsApp e claro, no FB, passa direta ou indiretamente pela infra de dezenas de milhares de servidores que rodam MySQL.\u00a0A linguagem usada pela equipe e por tr\u00e1s de toda a automa\u00e7\u00e3o \u00e9 Python. Nessa palestra, vamos mostrar como a linguagem possibilitou que cheg\u00e1ssemos nessa escala, passando pela evolu\u00e7\u00e3o, desafios e futuro:\u00a0- Interfaces \u201ctipadas\u201d com Thrift;-\u00a0Empacotamento atrav\u00e9s do Buck;-\u00a0Type Checking com MyPy;-\u00a0Asyncio para novos servi\u00e7os;-\u00a0Debugging com gdb 7 e pudb;\u00a0Durante a palestra, tamb\u00e9m passaremos por algumas decis\u00f5es de DevOps que podem inspirar novas solu\u00e7\u00f5es: gerenciamento de uma frota massiva de servidores, multitenancy e sharding, backups e restores cont\u00ednuos, schema migrations, entre outros.\u00a0[DevOps]\u00a0\n", 
+        "title": "Python na Infraestrutura MySQL do Facebook"
+      }, 
+      "0bad437e9b18a27d70e9bdd8e87b81b3": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://graph.facebook.com/v2.4/2156035871289568/picture?type=square&height=600&width=600&return_ssl_resources=1", 
+          "name": "Daniela Petruzalek", 
+          "social": [
+            {
+              "email": "daniela.petruzalek@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nUma introdu\u00e7\u00e3o ao mundo de Big Data com Apache Spark contextualizada dentro do ambiente da Globo.com. Aborda desde a defini\u00e7\u00e3o de Big Data, a mudan\u00e7a de paradigma de programa\u00e7\u00e3o para viabilizar a computa\u00e7\u00e3o paralela, os diferenciais tecnol\u00f3gicos do Spark e as suas aplica\u00e7\u00f5es pr\u00e1ticas na Globo.com. Finalizamos com uma breve demo do pyspark shell.\n", 
+        "title": "Big Data com Apache Spark na Globo.com"
+      }, 
+      "7eda19763c8643e6f98dfef205742b8a": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars.githubusercontent.com/u/5848493?v=3", 
+          "name": "D\u00e9bora Correia", 
+          "social": [
+            {
+              "email": "debora@labcodes.com.br"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nDesign n\u00e3o foi uma parte inicial da revolu\u00e7\u00e3o da web. Basta lembrar das primeiras vers\u00f5es do Google ou Yahoo para perceber que, quando os primeiros softwares surgiram, a \u00fanica preocupa\u00e7\u00e3o era com o c\u00f3digo, enquanto usabilidade e est\u00e9tica seriam quest\u00f5es ainda muito futuras. O importante era ter um website, e n\u00e3o um que garantisse uma boa experi\u00eancia pro usu\u00e1rio.Com o surgimento de novas empresas e aumento de concorrentes, a qualidade dos produtos aumentou drasticamente e hoje design realmente importa tanto quanto a tecnologia. Ainda assim, apesar de designers e devs viverem em overlapping worlds, suas atividades s\u00e3o muito distintas. Compartilhar habilidades e aprender a falar a l\u00edngua do outro \u00e9 essencial para comunicar ideias. \u00a0O que ent\u00e3o voc\u00ea, como desenvolvedor, deve aprender para facilitar na comunica\u00e7\u00e3o com o designer no seu time, ou o que fazer quando ele n\u00e3o est\u00e1 dispon\u00edvel (ou nem mesmo existe)? Esta palestra tem como objetivo aumentar a sua consci\u00eancia de design. Isto significa entender inicialmente o que \u00e9 um \"bom design\", discutir como o processo de cria\u00e7\u00e3o pode ser incorporado no desenvolvimento de software, al\u00e9m de mostrar como \u00e9 poss\u00edvel, atrav\u00e9s da aplica\u00e7\u00e3o de alguns conceitos simples, melhorar a experi\u00eancia das interfaces desenvolvidas.\n", 
+        "title": "O que desenvolvedores deveriam aprender sobre design?"
+      }, 
+      "9e29d46812331b2cd79b78b67a71ea31": {
+        "speaker": {
+          "info": "Osvaldo Santana Neto \u00e9 CTO/Desenvolvedor na Olist, facilitadora e aceleradora de vendas em marketplaces, membro-fundador e ex-presidente da Associa\u00e7\u00e3o Python Brasil. Tamb\u00e9m \u00e9 membro da Python Software Foundation e co-autor do livro Python e Django. Teve passagens por empresas como Conectiva (Mandriva) e Instituto Nokia de Tecnologia onde deu in\u00edcio ao projeto de porte do Python para a plataforma Maemo (MeeGo).", 
+          "photo": "https://www.gravatar.com/avatar/9274b1eafb37f921c2db2ca6ecfc6f04?s=200&d=mm", 
+          "name": "Osvaldo Santana", 
+          "social": [
+            {
+              "globe": "https://osantana.me/", 
+              "github": "https://github.com/osantana", 
+              "facebook": "https://facebook.com/osantanabr", 
+              "email": "speakerfight@osantana.me"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nNessa apresenta\u00e7\u00e3o eu demonstro com detalhes como a arquitetura da Olist foi implementada usando microservi\u00e7os distribu\u00eddos que se comunicam atrav\u00e9s de um sistema de mensageria baseado no pattern Publisher/Subscribers (PubSub).A plataforma Olist usa Python 3.6, Django, Django REST Framework, Loafer (asyncio), AWS SNS/SQS e PostgreSQL. Fazemos deployment no Heroku e desenvolvemos tudo isso com uma equipe distribu\u00edda por quase todas as regi\u00f5es do Brasil (ainda falta um representante do Norte!).Essa palestra foi apresentada durante a Caipyras 2017 e os slides est\u00e3o dispon\u00edveis no endere\u00e7o:\u00a0https://www.slideshare.net/osantana/plataforma-distribuda-de-microservios-ou-como-a-olist-funciona\n", 
+        "title": "Plataforma distribu\u00edda de Microservi\u00e7os ou, como a Olist funciona"
+      }, 
+      "abe785eff9244ac1c586b557d93821d8": {
+        "speaker": {
+          "info": "", 
+          "photo": "", 
+          "name": "Associados", 
+          "social": []
+        }, 
+        "type": "talk", 
+        "description": "", 
+        "title": "Associa\u00e7\u00e3o Python Brasil"
+      }, 
+      "151b0e85169af41667aec218307302ce": {
+        "speaker": {
+          "info": "", 
+          "photo": "https://avatars3.githubusercontent.com/u/2574306?v=3", 
+          "name": "Julio Melanda", 
+          "social": [
+            {
+              "email": "jcemelanda@gmail.com"
+            }
+          ]
+        }, 
+        "type": "talk", 
+        "description": "\nEm novembro de 2015 comecei com a Toptal e desde ent\u00e3o tenho trabalhado como desenvolvedor Freelancer remoto.Nesta palestra pretendo falar um pouco dos v\u00e1rios desafios que envolvem este tipo de trabalho, desde as necessidades t\u00e9cnicas at\u00e9 as quest\u00f5es financeiras de como receber e tudo mais. Al\u00e9m dos desafios, quer mostrar as v\u00e1rias vantagens que encontrei neste modelo de trabalho nestes 2 anos.N\u00edvel: inicianteCategoria: Carreira\n", 
+        "title": "Desafios e vantagens do trabalho remoto freelancer Python"
       }
     }
   ]
