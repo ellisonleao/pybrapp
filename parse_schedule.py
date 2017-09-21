@@ -1,9 +1,11 @@
 
 import bs4
 import glob
+import hashlib
 import re
 import urllib
 import json
+
 
 dates = {
     'day1.html': '2017-10-06',
@@ -52,12 +54,16 @@ def parse_slots(lecture, tracks):
     '''
 
     slots = []
-    for talk_id, hour in enumerate(lecture.find_all('p', attrs={'class': 'hour'})):
+    md5 = hashlib.md5()
+    for hour in lecture.find_all('p', attrs={'class': 'hour'}):
         start_tag = hour
         while True:
             start_time = hour.time.getText()
             title_tag = start_tag.find_next('p', attrs={'class': 'talk'})
             title = title_tag.getText()
+            md5.update(title.encode('ascii', errors='ignore').replace(' ', ''))
+            talk_id = md5.hexdigest()
+
             track_tag = start_tag.find_next('span', attrs={'class': 'track'})
             if track_tag:
                 track_name = track_tag.getText()
@@ -72,7 +78,7 @@ def parse_slots(lecture, tracks):
             if speaker_tag is None:
                 hour_tag = title_tag.find_next('p', attrs={'class': 'hour'})
                 slots.append(
-                    {"talk_id": "{:02d}".format(talk_id),
+                    {"talk_id": "{}".format(talk_id),
                      "title": title,
                      "start_time": start_time,
                      "end_time": hour_tag.time.getText(),
@@ -87,7 +93,7 @@ def parse_slots(lecture, tracks):
                 end_time = '18:00'
 
             slots.append(
-                {"talk_id": "{:02d}".format(talk_id),
+                {"talk_id": "{}".format(talk_id),
                     "title": title,
                     "start_time": start_time,
                     "end_time": end_time,
@@ -116,7 +122,7 @@ for day in dates.keys():
         'https://raw.githubusercontent.com/pythonbrasil/pythonbrasil13-site/'
         'master/theme/templates/includes/days/{}'.format(day)
     )
-    soup = bs4.BeautifulSoup(f_day.read())
+    soup = bs4.BeautifulSoup(f_day.read(), 'html.parser')
     days.append(soup)
     lecture = soup.find('div', attrs={'class': 'lecture'})
     # All the days have the same room names, don't need to parse all them.
