@@ -26,7 +26,6 @@ class ScreenSponsor(Screen):
                 backcolor: app.base_inactive_color[:3] + [.5]
                 pos_hint: {'top':1}
                 size_hint: 1 , None
-                font_size: dp(20)
             GridLayout
                 id: main
                 rows: 5
@@ -63,7 +62,6 @@ class ScreenSponsor(Screen):
     BackLabel
         text: self.parent.data['name']
         size_hint: 1, None
-        font_size: dp(14)
 
 <SponsorImage@ButtonBehavior+Image>
     source: self.parent.data['logo']
