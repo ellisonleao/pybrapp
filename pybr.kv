@@ -20,12 +20,12 @@ NavigationLayout:
             title: 'Menu'
         NavigationDrawerIconButton:
             icon: 'arrow-right-drop-circle'
-            text: 'Programação'
-            on_release: app.root.ids.scr_mngr.current = 'schedule'
-        NavigationDrawerIconButton:
-            icon: 'arrow-right-drop-circle'
             text: 'Sobre'
             on_release: app.root.ids.scr_mngr.current = 'about'
+        NavigationDrawerIconButton:
+            icon: 'arrow-right-drop-circle'
+            text: 'Programação'
+            on_release: app.root.ids.scr_mngr.current = 'schedule'
         NavigationDrawerIconButton:
             icon: 'arrow-right-drop-circle'
             text: 'Patrocinadores'
@@ -47,6 +47,6 @@ NavigationLayout:
         ScreenManager:
             id: scr_mngr
             AboutScreen:
-            SprintsScreen:
-            SponsorsScreen:
             ScheduleScreen:
+            SponsorsScreen:
+            SprintsScreen:
