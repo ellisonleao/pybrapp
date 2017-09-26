@@ -4,16 +4,19 @@
 title = Python Brasil 2017
 
 # (str) Package name
-package.name = conference
+package.name = pybr
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.pybr
 
 # (str) Source code where the main.py live
-source.dir = ./pybr
+source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas,vs,fs,json,gif
+
+# (list) List of inclusions using pattern matching
+#source.include_patterns = assets/*,images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -33,7 +36,7 @@ version = 0.3
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = hostpython2,android,openssl,kivy,futures,requests
+requirements = kivy,git+https://gitlab.com/kivymd/KivyMD.git
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -43,10 +46,10 @@ requirements = hostpython2,android,openssl,kivy,futures,requests
 #garden_requirements =
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/data/icon.png
+presplash.filename = %(source.dir)s/data/assets/icon.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/data/icon.png
+icon.filename = %(source.dir)s/data/assets/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
 orientation = portrait
@@ -68,6 +71,13 @@ orientation = portrait
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 1
 
+# (string) Presplash background color (for new android toolchain)
+# Supported formats are: #RRGGBB #AARRGGBB or one of the following names:
+# red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
+# darkgray, grey, lightgrey, darkgrey, aqua, fuchsia, lime, maroon, navy,
+# olive, purple, silver, teal.
+#android.presplash_color = #FFFFFF
+
 # (list) Permissions
 android.permissions = INTERNET
 
@@ -78,7 +88,7 @@ android.permissions = INTERNET
 #android.minapi = 9
 
 # (int) Android SDK version to use
-#android.sdk = 21
+#android.sdk = 20
 
 # (str) Android NDK version to use
 #android.ndk = 9c
@@ -95,14 +105,22 @@ android.permissions = INTERNET
 # (str) ANT directory (if empty, it will be automatically downloaded.)
 #android.ant_path =
 
-# (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
-#android.p4a_dir =
-
-# (list) python-for-android whitelist
-#android.p4a_whitelist =
+# (bool) If True, then skip trying to update the Android sdk
+# This can be useful to avoid excess Internet downloads or save time
+# when an update is due and you just want to test/build your package
+# android.skip_update = False
 
 # (str) Android entry point, default is ok for Kivy-based app
 #android.entrypoint = org.renpy.android.PythonActivity
+
+# (list) Pattern to whitelist for the whole project
+#android.whitelist =
+
+# (str) Path to a custom whitelist file
+#android.whitelist_src =
+
+# (str) Path to a custom blacklist file
+#android.blacklist_src =
 
 # (list) List of Java .jar files to add to the libs so that pyjnius can access
 # their classes. Don't add jars that you do not need, since extra jars can slow
@@ -114,9 +132,16 @@ android.permissions = INTERNET
 # directory containing the files)
 #android.add_src =
 
-# (str) python-for-android branch to use, if not master, useful to try
-# not yet merged features.
-#android.branch = master
+# (list) Android AAR archives to add (currently works only with sdl2_gradle
+# bootstrap)
+#android.add_aars =
+
+# (list) Gradle dependencies to add (currently works only with sdl2_gradle
+# bootstrap)
+#android.gradle_dependencies =
+
+# (str) python-for-android branch to use, defaults to master
+#p4a.branch = stable
 
 # (str) OUYA Console category. Should be one of GAME or APP
 # If you leave this blank, OUYA support will not be enabled
@@ -124,8 +149,6 @@ android.permissions = INTERNET
 
 # (str) Filename of OUYA Console icon. It must be a 732x412 png image.
 #android.ouya.icon.filename = %(source.dir)s/data/ouya_icon.png
-
-p4a.bootstrap = sdl2
 
 # (str) XML file to include as an intent filters in <activity> tag
 #android.manifest.intent_filters =
@@ -153,14 +176,36 @@ p4a.bootstrap = sdl2
 # (bool) Copy library instead of making a libpymodules.so
 #android.copy_libs = 1
 
+# (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86
+android.arch = armeabi-v7a
+
+#
+# Python for android (p4a) specific
+#
+
+# (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
+#p4a.source_dir =
+
+# (str) The directory in which python-for-android should look for your own build recipes (if any)
+#p4a.local_recipes =
+
+# (str) Filename to the hook for p4a
+#p4a.hook =
+
+# (str) Bootstrap to use for android builds
+p4a.bootstrap = sdl2
+
+
 #
 # iOS specific
 #
 
+# (str) Path to a custom kivy-ios folder
+#ios.kivy_ios_dir = ../kivy-ios
+
 # (str) Name of the certificate to use for signing the debug version
 # Get a list of available identities: buildozer ios list_identities
 #ios.codesign.debug = "iPhone Developer: <lastname> <firstname> (<hexstring>)"
-ios.codesign.debug = "iPhone Distribution: Akshay Arora (RPJ7XAT92V)"
 
 # (str) Name of the certificate to use for signing the release version
 #ios.codesign.release = %(ios.codesign.debug)s
@@ -174,6 +219,11 @@ log_level = 2
 # (int) Display warning if buildozer is run as root (0 = False, 1 = True)
 warn_on_root = 1
 
+# (str) Path to build artifact storage, absolute or relative to spec file
+# build_dir = ./.buildozer
+
+# (str) Path to build output (i.e. .apk, .ipa) storage
+# bin_dir = ./bin
 
 #    -----------------------------------------------------------------------------
 #    List as sections

@@ -1,12 +1,12 @@
 PYTHON = python
 # needs kivy installed or in PYTHONPATH
 
-.PHONY: theming apk run
+.PHONY: atlas theming apk run install
 
-theming:
-	$(PYTHON) -m kivy.atlas pybr/data/default 1024 tools/theming/*.png tools/theming/*.jpg
-run: theming
-	$(PYTHON) pybr/main.py -m screen:droid2,portrait -m inspector
+atlas:
+	$(PYTHON) -m kivy.atlas atlas 1024 data/assets/*
+run: atlas
+	$(PYTHON) main.py -m screen:droid2,portrait -m inspector
 apk:
 	buildozer android debug
 apk_release:

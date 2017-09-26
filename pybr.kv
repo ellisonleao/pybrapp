@@ -1,0 +1,52 @@
+#:import Toolbar kivymd.toolbar.Toolbar
+#:import MDNavigationDrawer kivymd.navigationdrawer.MDNavigationDrawer
+#:import NavigationLayout kivymd.navigationdrawer.NavigationLayout
+#:import NavigationDrawerToolbar kivymd.navigationdrawer.NavigationDrawerToolbar
+#:import MDTabbedPanel kivymd.tabs.MDTabbedPanel
+#:import MDTab kivymd.tabs.MDTab
+#:import MDList kivymd.list.MDList
+#:import ThreeLineListItem kivymd.list.ThreeLineListItem
+#:import ut utils
+#:import AboutScreen screens
+#:import ScheduleScreen screens
+#:import SprintsScreen screens
+#:import SponsorsScreen screens
+
+NavigationLayout:
+    id: nav_layout
+    MDNavigationDrawer:
+        id: nav_drawer
+        NavigationDrawerToolbar:
+            title: 'Menu'
+        NavigationDrawerIconButton:
+            icon: 'arrow-right-drop-circle'
+            text: 'Programação'
+            on_release: app.root.ids.scr_mngr.current = 'schedule'
+        NavigationDrawerIconButton:
+            icon: 'arrow-right-drop-circle'
+            text: 'Sobre'
+            on_release: app.root.ids.scr_mngr.current = 'about'
+        NavigationDrawerIconButton:
+            icon: 'arrow-right-drop-circle'
+            text: 'Patrocinadores'
+            on_release: app.root.ids.scr_mngr.current = 'sponsors'
+        NavigationDrawerIconButton:
+            icon: 'arrow-right-drop-circle'
+            text: 'Sprints'
+            on_release: app.root.ids.scr_mngr.current = 'sprints'
+
+    BoxLayout:
+        orientation: 'vertical'
+        Toolbar:
+            id: toolbar
+            title: 'Python Brasil 2017'
+            md_bg_color: app.theme_cls.primary_color
+            background_palette: 'Primary'
+            background_hue: '500'
+            left_action_items: [['menu', lambda x: app.root.toggle_nav_drawer()]]
+        ScreenManager:
+            id: scr_mngr
+            AboutScreen:
+            SprintsScreen:
+            SponsorsScreen:
+            ScheduleScreen:

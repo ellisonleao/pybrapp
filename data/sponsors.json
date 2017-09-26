@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Python Software Foundation",
+      "type": "Gold",
+      "website": "https://www.python.org/psf/",
+      "logo": "data/assets/psf.png"
+    },
+    {
+      "name": "Globo.com",
+      "type": "Gold",
+      "website": "http://talentos.globo.com/",
+      "logo": "data/assets/globocom.png"
+    },
+    {
+      "name": "Facebook",
+      "type": "Gold",
+      "website": "http://www.facebook.com/careers",
+      "logo": "data/assets/facebook.png"
+    },
+    {
+      "name": "Necto Systems",
+      "type": "Prata",
+      "website": "https://www.nectosystems.com.br/",
+      "logo": "data/assets/necto.png"
+    },
+    {
+      "name": "e-Shares",
+      "type": "Prata",
+      "website": "https://esharesinc.com/about",
+      "logo": "data/assets/eshares.png"
+    },
+    {
+      "name": "Labcodes",
+      "type": "Prata",
+      "website": "http://www.labcodes.com.br/",
+      "logo": "data/assets/labcodes.png"
+    },
+    {
+      "name": "Evolux",
+      "type": "Bronze",
+      "website": "https://www.evolux.net.br/",
+      "logo": "data/assets/evolux.png"
+    },
+    {
+      "name": "Associação Python Brasil",
+      "type": "Apoio",
+      "website": "http://associacao.python.org.br/",
+      "logo": "data/assets/apyb.png"
+    },
+    {
+      "name": "Una",
+      "type": "Apoio",
+      "website": "https://www.una.br/",
+      "logo": "data/assets/una.jpg"
+    },
+    {
+      "name": "DNE",
+      "type": "Apoio",
+      "website": "http://devnaestrada.com.br/",
+      "logo": "data/assets/devnaestrada.png"
+    }
+]
