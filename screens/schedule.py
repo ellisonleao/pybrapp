@@ -95,6 +95,10 @@ class ScheduleScreen(Screen):
         self.tracks = get_data('tracks')
 
     def on_enter(self):
+        # schedules already populated
+        if self.ids.schedule_tabs.ids.tab_manager.screens:
+            return
+
         # populating schedules
         for i in range(6, 12):
             track_day = str(i)
