@@ -1,62 +1,122 @@
 [
-    {
-      "name": "Python Software Foundation",
-      "type": "Gold",
-      "website": "https://www.python.org/psf/",
-      "logo": "data/assets/psf.png"
-    },
-    {
-      "name": "Globo.com",
-      "type": "Gold",
-      "website": "http://talentos.globo.com/",
-      "logo": "data/assets/globocom.png"
-    },
-    {
-      "name": "Facebook",
-      "type": "Gold",
-      "website": "http://www.facebook.com/careers",
-      "logo": "data/assets/facebook.png"
-    },
-    {
-      "name": "Necto Systems",
-      "type": "Prata",
-      "website": "https://www.nectosystems.com.br/",
-      "logo": "data/assets/necto.png"
-    },
-    {
-      "name": "e-Shares",
-      "type": "Prata",
-      "website": "https://esharesinc.com/about",
-      "logo": "data/assets/eshares.png"
-    },
-    {
-      "name": "Labcodes",
-      "type": "Prata",
-      "website": "http://www.labcodes.com.br/",
-      "logo": "data/assets/labcodes.png"
-    },
-    {
-      "name": "Evolux",
-      "type": "Bronze",
-      "website": "https://www.evolux.net.br/",
-      "logo": "data/assets/evolux.png"
-    },
-    {
-      "name": "Associação Python Brasil",
-      "type": "Apoio",
-      "website": "http://associacao.python.org.br/",
-      "logo": "data/assets/apyb.png"
-    },
-    {
-      "name": "Una",
-      "type": "Apoio",
-      "website": "https://www.una.br/",
-      "logo": "data/assets/una.jpg"
-    },
-    {
-      "name": "DNE",
-      "type": "Apoio",
-      "website": "http://devnaestrada.com.br/",
-      "logo": "data/assets/devnaestrada.png"
-    }
+  {
+    "website": "https://www.python.org/psf/",
+    "logo": "data/assets/psf.png",
+    "type": "Ouro",
+    "name": "Python Software Foundation"
+  },
+  {
+    "website": "https://www.stone.com.br/",
+    "logo": "data/assets/stone.png",
+    "type": "Ouro",
+    "name": "Stone"
+  },
+  {
+    "website": "http://talentos.globo.com",
+    "logo": "data/assets/globocom.png",
+    "type": "Ouro",
+    "name": "Globo.com"
+  },
+  {
+    "website": "http://www.facebook.com/careers",
+    "logo": "data/assets/facebook.png",
+    "type": "Ouro",
+    "name": "Facebook"
+  },
+  {
+    "website": "https://www.nectosystems.com.br/",
+    "logo": "data/assets/necto.png",
+    "type": "Prata",
+    "name": "Necto Systems"
+  },
+  {
+    "website": "https://esharesinc.com/about",
+    "logo": "data/assets/eshares.png",
+    "type": "Prata",
+    "name": "eShares"
+  },
+  {
+    "website": "http://www.labcodes.com.br/",
+    "logo": "data/assets/labcodes.png",
+    "type": "Prata",
+    "name": "Labcodes"
+  },
+  {
+    "website": "https://www.toptal.com/",
+    "logo": "data/assets/toptal.png",
+    "type": "Bronze",
+    "name": "Toptal"
+  },
+  {
+    "website": "https://nuveo.ai/",
+    "logo": "data/assets/nuveo.png",
+    "type": "Bronze",
+    "name": "Nuveo"
+  },
+  {
+    "website": "https://www.evolux.net.br/",
+    "logo": "data/assets/evolux.png",
+    "type": "Bronze",
+    "name": "Evolux"
+  },
+  {
+    "website": "http://associacao.python.org.br/",
+    "logo": "data/assets/apyb.png",
+    "type": "Apoio",
+    "name": "APyB"
+  },
+  {
+    "website": "https://www.una.br/",
+    "logo": "data/assets/una.jpg",
+    "type": "Apoio",
+    "name": "UNA"
+  },
+  {
+    "website": "http://devnaestrada.com.br/",
+    "logo": "data/assets/devnaestrada.png",
+    "type": "Apoio",
+    "name": "Dev na estrada"
+  },
+  {
+    "website": "http://castalio.info/",
+    "logo": "data/assets/castalio.png",
+    "type": "Apoio",
+    "name": "Cast\u00e1lio Podcast"
+  },
+  {
+    "website": "https://gravento.com.br/",
+    "logo": "data/assets/gravento.png",
+    "type": "Apoio",
+    "name": "Gravento"
+  },
+  {
+    "website": "http://brasil.pyladies.com/",
+    "logo": "data/assets/pyladies.png",
+    "type": "Apoio",
+    "name": "PyLadies"
+  },
+  {
+    "website": "https://djangogirls.org/belohorizonte/",
+    "logo": "data/assets/djangogirls.png",
+    "type": "Apoio",
+    "name": "Django Girls"
+  },
+  {
+    "website": "http://asl.org.br/",
+    "logo": "data/assets/asl.png",
+    "type": "Apoio",
+    "name": "Associa\u00e7\u00e3o SoftwareLivre.org (ASL)"
+  },
+  {
+    "website": "http://www.softwarelivre.org/",
+    "logo": "data/assets/asl-psl.png",
+    "type": "Apoio",
+    "name": "Projeto Software Livre Brasil"
+  },
+  {
+    "website": "https://twitter.com/pythonmg",
+    "logo": "data/assets/pythonmg.png",
+    "type": "Organiza\u00e7\u00e3o",
+    "name": "Python MG"
+  }
 ]
