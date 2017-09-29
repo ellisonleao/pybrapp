@@ -16,7 +16,7 @@ Builder.load_string("""
         GridLayout:
             id: sponsors_grid
             cols: 1
-            row_default_height: (self.width - self.cols*self.spacing[0])/self.cols
+            row_default_height: dp(150)
             row_force_default: True
             size_hint_y: None
             height: self.minimum_height
@@ -32,6 +32,6 @@ class SponsorsScreen(Screen):
         color = [0.64, 0.84, 0.98, 0.5]
         for sponsor in sponsors:
             grid.add_widget(SmartTileWithLabel(mipmap=True, keep_ratio=True,
-                                               box_color=color,
+                                               box_color=color, overlap=False,
                                                text=sponsor['name'],
                                                source=sponsor['logo']))
