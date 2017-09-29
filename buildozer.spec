@@ -46,7 +46,7 @@ requirements = kivy,git+https://gitlab.com/kivymd/KivyMD.git
 #garden_requirements =
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/data/assets/icon.png
+presplash.filename = %(source.dir)s/data/assets/splash.png
 
 # (str) Icon of the application
 icon.filename = %(source.dir)s/data/assets/icon.png
