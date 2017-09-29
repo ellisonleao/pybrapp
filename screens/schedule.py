@@ -28,26 +28,41 @@ class IconLeftSampleWidget(ILeftBodyTouch, MDIconButton):
 
 
 class Track(TwoLineIconListItem):
+
+    colors = {
+            # rgb(241, 194, 65)
+            'Sala Aventurine e Alexandrite': [0.94, 0.76, 0.25, .4],
+            # rgb(87, 193, 219)
+            'Sala Amethyst': [0.34, 0.75, 0.85, .4],
+            # rgb(86, 184, 103)
+            'Sala Crystal': [0.33, 0.72, 0.4, .4],
+            'default': [0.5, 0.5, 0.5, .4],
+    }
+
     def __init__(self, *args, **kwargs):
         self.info = kwargs.pop('info')
         kwargs['type'] = 'three-line'
         kwargs['text'] = self.info['time']
         kwargs['secondary_text'] = self.info['title'].upper()
+
         super(Track, self).__init__(*args, **kwargs)
+
+        icon = IconLeftSampleWidget(icon=self.info.get('icon', 'bulletin-board'))
+
+        if 'place' in self.info:
+            label = self.ids._lbl_primary
+            place = self.info['place'].replace('Sala', '')
+            label.text += ' - {}'.format(place)
+
+            color = self.colors[self.info['place']]
+            icon.ids.content.color = color
+
+        self.add_widget(icon)
+
 
     def on_release(self):
         if not self.info.get('speaker'):
             return
-
-        # button_colors = {
-        #     # rgb(241, 194, 65)
-        #     'Sala Aventurine e Alexandrite': [0.94, 0.76, 0.25, .4],
-        #     # rgb(87, 193, 219)
-        #     'Sala Amethyst': [0.34, 0.75, 0.85, .4],
-        #     # rgb(86, 184, 103)
-        #     'Sala Crystal': [0.33, 0.72, 0.4, .4],
-        #     'default': [0.5, 0.5, 0.5, .4],
-        # }
 
         box = BoxLayout(height=dp(500), orientation='vertical',
                         size_hint_y=None)
@@ -109,8 +124,6 @@ class ScheduleScreen(Screen):
 
             for track in self.tracks[track_day]:
                 item = Track(info=track)
-                icon = IconLeftSampleWidget(icon=track.get('icon', 'bulletin-board'))
-                item.add_widget(icon)
                 l.add_widget(item)
 
             sv.add_widget(l)
