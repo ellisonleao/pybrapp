@@ -17,6 +17,12 @@ from utils import get_data
 Builder.load_string("""
 <ScheduleScreen>
     name: 'schedule'
+    MDSpinner:
+        id: spinner
+        active: True
+        size_hint: None, None
+        size: dp(46), dp(46)
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
     MDTabbedPanel:
         id: schedule_tabs
         tab_display_mode: 'text'
@@ -129,3 +135,5 @@ class ScheduleScreen(Screen):
             sv.add_widget(l)
             tab.add_widget(sv)
             self.ids.schedule_tabs.add_widget(tab)
+
+        self.ids.spinner.active = False

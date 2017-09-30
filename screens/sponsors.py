@@ -11,6 +11,12 @@ from utils import get_data
 Builder.load_string("""
 <SponsorsScreen>
     name: 'sponsors'
+    MDSpinner:
+        id: spinner
+        active: True
+        size_hint: None, None
+        size: dp(46), dp(46)
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
     ScrollView:
         do_scroll_x: False
         GridLayout:
@@ -35,3 +41,4 @@ class SponsorsScreen(Screen):
                                                box_color=color, overlap=False,
                                                text=sponsor['name'],
                                                source=sponsor['logo']))
+        self.ids.spinner.active = False
