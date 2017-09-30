@@ -14,9 +14,13 @@ from kivymd.dialog import MDDialog
 from utils import get_data
 
 
-Builder.load_string("""
-<ScheduleScreen>
-    name: 'schedule'
+base_schedule_screen = '''
+<{class_name}>
+    name: '{screen_name}'
+{widgets}
+'''
+
+common_widgets = '''
     MDSpinner:
         id: spinner
         active: True
@@ -26,7 +30,12 @@ Builder.load_string("""
     MDTabbedPanel:
         id: schedule_tabs
         tab_display_mode: 'text'
-""")
+'''
+
+
+Builder.load_string(base_schedule_screen.format(class_name='SpeechScreen', screen_name='speech', widgets=common_widgets))
+Builder.load_string(base_schedule_screen.format(class_name='TutorialScreen', screen_name='tutorial', widgets=common_widgets))
+Builder.load_string(base_schedule_screen.format(class_name='SprintScreen', screen_name='sprint', widgets=common_widgets))
 
 
 class IconLeftSampleWidget(ILeftBodyTouch, MDIconButton):
@@ -71,7 +80,7 @@ class Track(TwoLineIconListItem):
             return
 
         box = BoxLayout(height=dp(500), orientation='vertical',
-                        size_hint_y=None)
+                        spacing=dp(10), size_hint_y=None)
 
         # adding avatar widget
         if self.info['speaker'].get('avatar'):
@@ -110,6 +119,7 @@ class Track(TwoLineIconListItem):
 
 
 class ScheduleScreen(Screen):
+    schedule_range = tuple()
 
     def __init__(self, *args, **kwargs):
         super(ScheduleScreen, self).__init__(*args, **kwargs)
@@ -121,7 +131,7 @@ class ScheduleScreen(Screen):
             return
 
         # populating schedules
-        for i in range(6, 12):
+        for i in range(*self.schedule_range):
             track_day = str(i)
             tab = MDTab(id=str(i), name=str(i), text='{} Out'.format(i))
             # tab schedule
@@ -137,3 +147,15 @@ class ScheduleScreen(Screen):
             self.ids.schedule_tabs.add_widget(tab)
 
         self.ids.spinner.active = False
+
+
+class SpeechScreen(ScheduleScreen):
+    schedule_range = (6, 9)
+
+
+class TutorialScreen(ScheduleScreen):
+    schedule_range = (9, 11)
+
+
+class SprintScreen(ScheduleScreen):
+    schedule_range = (11, 12)

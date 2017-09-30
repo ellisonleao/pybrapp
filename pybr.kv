@@ -9,7 +9,8 @@
 #:import ThreeLineListItem kivymd.list.ThreeLineListItem
 #:import ut utils
 #:import AboutScreen screens
-#:import ScheduleScreen screens
+#:import SpeechScreen screens
+#:import TutorialScreen screens
 #:import SprintsScreen screens
 #:import SponsorsScreen screens
 
@@ -25,16 +26,20 @@ NavigationLayout:
             on_release: app.root.ids.scr_mngr.current = 'about'
         NavigationDrawerIconButton:
             icon: 'arrow-right-drop-circle'
-            text: 'Programação'
-            on_release: app.root.ids.scr_mngr.current = 'schedule'
+            text: 'Palestras'
+            on_release: app.root.ids.scr_mngr.current = 'speech'
+        NavigationDrawerIconButton:
+            icon: 'arrow-right-drop-circle'
+            text: 'Tutoriais'
+            on_release: app.root.ids.scr_mngr.current = 'tutorial'
+        NavigationDrawerIconButton:
+            icon: 'arrow-right-drop-circle'
+            text: 'Sprints'
+            on_release: app.root.ids.scr_mngr.current = 'sprint'
         NavigationDrawerIconButton:
             icon: 'arrow-right-drop-circle'
             text: 'Patrocinadores'
             on_release: app.root.ids.scr_mngr.current = 'sponsors'
-        NavigationDrawerIconButton:
-            icon: 'arrow-right-drop-circle'
-            text: 'Sprints'
-            on_release: app.root.ids.scr_mngr.current = 'sprints'
 
     BoxLayout:
         orientation: 'vertical'
@@ -48,6 +53,7 @@ NavigationLayout:
         ScreenManager:
             id: scr_mngr
             AboutScreen:
-            ScheduleScreen:
+            SpeechScreen:
+            TutorialScreen:
+            SprintScreen:
             SponsorsScreen:
-            SprintsScreen:
