@@ -621,5 +621,24 @@
     ],
     "9": [],
     "10": [],
-    "11": []
+    "11": [
+        {
+            "time": "08:30",
+            "title": "COFFEE BREAK",
+            "icon": "coffee",
+            "place": "UNA (Campus Barro Preto)"
+        },
+        {
+            "time": "09:00",
+            "title": "Atividades",
+            "place": "UNA (Campus Barro Preto)",
+            "icon": "star-circle"
+        },
+        {
+            "time": "17:00",
+            "title": "COFFEE BREAK",
+            "icon": "coffee",
+            "place": "UNA (Campus Barro Preto)"
+        }
+    ]
 }
