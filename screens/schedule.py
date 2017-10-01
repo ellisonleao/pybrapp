@@ -155,9 +155,9 @@ class ScheduleScreen(Screen):
             tab.add_widget(sv)
             self.ids.schedule_tabs.add_widget(tab)
 
-            # not really sure if this is the way to select a tab
-            if current_date in track_names:
-                self.ids.schedule_tabs.current = current_date
+        # not really sure if this is the way to select a tab
+        if current_date in track_names:
+            self.ids.schedule_tabs.current = current_date
 
         self.ids.spinner.active = False
 
