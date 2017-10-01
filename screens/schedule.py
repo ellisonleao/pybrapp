@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import datetime
+
 from kivy.lang import Builder
 from kivy.uix.screenmanager import Screen
 from kivy.uix.scrollview import ScrollView
@@ -120,6 +122,7 @@ class Track(TwoLineIconListItem):
 
 class ScheduleScreen(Screen):
     schedule_range = tuple()
+    base_tab_name = '{:02d}_10_2017'
 
     def __init__(self, *args, **kwargs):
         super(ScheduleScreen, self).__init__(*args, **kwargs)
@@ -130,12 +133,18 @@ class ScheduleScreen(Screen):
         if self.ids.schedule_tabs.ids.tab_manager.screens:
             return
 
+        current_date = datetime.datetime.now().strftime('%d_%m_%Y')
+        track_names = []
         # populating schedules
         for i in range(*self.schedule_range):
+            track_name = self.base_tab_name.format(i)
+            track_names.append(track_name)
             track_day = str(i)
-            tab = MDTab(id=str(i), name=str(i), text='{} Out'.format(i))
+
+            tab = MDTab(id=track_day, name=track_name,
+                        text='{} Out'.format(track_day))
             # tab schedule
-            sv = ScrollView(id='tab_{}'.format(i), do_scroll_x=False)
+            sv = ScrollView(id='tab_{}'.format(track_name), do_scroll_x=False)
             l = MDList()
 
             for track in self.tracks[track_day]:
@@ -145,6 +154,10 @@ class ScheduleScreen(Screen):
             sv.add_widget(l)
             tab.add_widget(sv)
             self.ids.schedule_tabs.add_widget(tab)
+
+            # not really sure if this is the way to select a tab
+            if current_date in track_names:
+                self.ids.schedule_tabs.current = current_date
 
         self.ids.spinner.active = False
 
