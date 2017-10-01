@@ -619,8 +619,234 @@
             "title": "Encerramento"
         }
     ],
-    "9": [],
-    "10": [],
+    "9": [
+        {
+            "time": "08:30",
+            "title": "COFFEE BREAK",
+            "icon": "coffee",
+            "place": "UNA (Campus Barro Preto)"
+        },
+        {
+            "time": "09:00",
+            "title": "DJANGO GIRLS WORKSHOP",
+            "place": "salas[0] salas[1]",
+            "about": "",
+            "speaker": {
+                "name": "Django Girls",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "APRENDA FLASK CRIANDO UM CMS E SUAS EXTENSÕES. WHAT THE FLASK?",
+            "place": "salas[2]",
+            "about": "",
+            "speaker": {
+                "name": "Bruno Rocha",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "INTRODUÇÃO AOS MÓDULOS DE ANÁLISE DE DADOS",
+            "place": "salas[3]",
+            "about": "",
+            "speaker": {
+                "name": "Letícia Portella e Jessica Temporal",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "TESTES: OS PRIMEIROS PASSOS",
+            "place": "salas[4]",
+            "about": "",
+            "speaker": {
+                "name": "Roberta Takenaka",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "DOCKERIZANDO SUAS APLICAÇÕES PYTHON",
+            "place": "salas[5]",
+            "about": "",
+            "speaker": {
+                "name": "Felipe Morais",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "12:00",
+            "title": "Almoço",
+            "icon": "food"
+        },
+        {
+            "time": "14:00",
+            "title": "DJANGO GIRLS WORKSHOP",
+            "place": "salas[0] salas[1]",
+            "about": "",
+            "speaker": {
+                "name": "Django Girls",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "APRENDA FLASK CRIANDO UM CMS E SUAS EXTENSÕES. WHAT THE FLASK?",
+            "place": "salas[2]",
+            "about": "",
+            "speaker": {
+                "name": "Bruno Rocha",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "INTRODUÇÃO À RASPAGEM DE DADOS",
+            "place": "salas[3]",
+            "about": "",
+            "speaker": {
+                "name": "Fernando Masanori",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "ESTATÍSTICA PARA DEVS",
+            "place": "salas[4]",
+            "about": "",
+            "speaker": {
+                "name": "Tarsis Azevedo",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "CRIANDO MEU PRIMEIRO JOGO COM PYTHON",
+            "place": "salas[5]",
+            "about": "",
+            "speaker": {
+                "name": "Julio Melanda",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "17:00",
+            "title": "COFFEE BREAK",
+            "icon": "coffee",
+            "place": "UNA (Campus Barro Preto)"
+        }
+    ],
+    "10": [
+        {
+           "time": "08:30",
+           "title": "COFFEE BREAK",
+           "icon": "coffee",
+           "place": "UNA (Campus Barro Preto)"
+        },
+        {
+            "time": "09:00",
+            "title": "CURSO BÁSICO DE PYTHON PARA INICIANTES",
+            "place": "salas[0] salas[1]",
+            "about": "",
+            "speaker": {
+                "name": "PyLadies São Paulo",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "INTRODUÇÃO AO GIT (ESCOLINHA DO PROF. SAMUKA)",
+            "place": "salas[1]",
+            "about": "",
+            "speaker": {
+                "name": "Samuel Sampaio",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "DESENVOLVA SUA REST API COMPLEXA EM 1 DIA",
+            "place": "salas[2]",
+            "about": "",
+            "speaker": {
+                "name": "Felipe Samuel",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "APIS INTELIGENTES COM API STAR",
+            "place": "salas[3]",
+            "about": "",
+            "speaker": {
+                "name": "Nicolle Cysneiros",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "09:00",
+            "title": "DESENVOLVIMENTO DE UM WEB CRAWLER COM PYTHON 3",
+            "place": "salas[4]",
+            "about": "",
+            "speaker": {
+                "name": "Gustavo Henrique Nunes",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "12:00",
+            "title": "Almoço",
+            "icon": "food"
+        },
+        {
+            "time": "14:00",
+            "title": "CURSO BÁSICO DE PYTHON PARA INICIANTES",
+            "place": "salas[0]",
+            "about": "",
+            "speaker": {
+                "name": "PyLadies São Paulo",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "TEST DRIVEN DESIGN",
+            "place": "salas[1]",
+            "about": "",
+            "speaker": {
+                "name": "Renato Oliveira e Bernardo Fontes",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "DESENVOLVA SUA REST API COMPLEXA EM 1 DIA",
+            "place": "salas[2]",
+            "about": "",
+            "speaker": {
+                "name": "Felipe Samuel",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "CAPTURANDO DADOS ABERTOS SEM DOR DE CABEÇA",
+            "place": "salas[3]",
+            "about": "",
+            "speaker": {
+                "name": "Álvaro \"Turicas\" Justen",
+                "avatar": ""
+            }
+        },
+        {
+            "time": "17:00",
+            "title": "COFFEE BREAK",
+            "icon": "coffee",
+            "place": "UNA (Campus Barro Preto)"
+        }
+    ],
     "11": [
         {
             "time": "08:30",
