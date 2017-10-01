@@ -13,8 +13,9 @@ Builder.load_string("""
         BoxLayout:
             orientation: 'vertical'
             size_hint_y: None
-            height: dp(500)
-            padding: dp(48)
+            height: dp(800)
+            padding: dp(15)
+            spacing: dp(15)
             Image:
                 source: 'atlas://atlas/logo'
                 allow_stretch: True
