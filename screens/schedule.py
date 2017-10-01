@@ -65,15 +65,15 @@ class Track(TwoLineIconListItem):
         super(Track, self).__init__(*args, **kwargs)
 
         icon = IconLeftSampleWidget(icon=self.info.get('icon', 'bulletin-board'))
+        color = self.colors['default']
 
         if 'place' in self.info:
             label = self.ids._lbl_primary
             place = self.info['place'].replace('Sala', '')
             label.text += ' - {}'.format(place)
+            color = self.colors.get(self.info['place'], color)
 
-            color = self.colors[self.info['place']]
-            icon.ids.content.color = color
-
+        icon.ids.content.color = color
         self.add_widget(icon)
 
 
