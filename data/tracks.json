@@ -1,0 +1,625 @@
+{
+    "6": [
+        {
+            "time": "08:00",
+            "title": "CREDENCIAMENTO"
+        },
+        {
+            "time": "09:00",
+            "title": "ABERTURA"
+        },
+        {
+            "time": "09:40",
+            "title": "KEYNOTE",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Desenvolvedora backend, agora tentando empreender com sua primeira empresa na Argentina, primeira brasileira diretora da PSF, metida a ensinar Python pelo youtube, atualmente vive em Mendoza mas é carioca mais que da gema. Co-criadora de Pyladies Mendoza e Python Mendoza. Organizou inúmeros Django Girls e é viciada nisso. Co-criadora Rio DevDay e Argentina DevDay, que são conferencias grátis como foco em estudantes e curiosos. Acredita que comunidade é sua segunda família.",
+            "speaker": {
+                "name": "Paola Katherine",
+                "avatar": "https://avatars3.githubusercontent.com/u/6462237?v=4&s=460"
+            },
+            "icon": "star-circle"
+        },
+        {
+            "time": "10:30",
+            "title": "COFFEE BREAK",
+            "icon": "coffee"
+        },
+        {
+            "time": "11:00",
+            "title": "SERENATA DE AMOR: INTELIGÊNCIA ARTIFICIAL USANDO DADOS ABERTOS GOVERNAMENTAIS",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Conheça o projeto Serenata de Amor, uma iniciativa de ciência de dados com código aberto e financiamento coletivo que construiu uma plataforma de inteligência artificial capaz de minerar e buscar discrepâncias na prestação de contas dos gastos de nossos deputados federais. Entenda como o projeto começou, como ele foi feito, os promissores resultados alcançados até o momento, quais são os próximos passos e como você pode nos ajudar a fiscalizar ainda mais os nossos representantes.",
+            "speaker": {
+                "name": "Jéssica Temporal",
+                "avatar": "https://www.gravatar.com/avatar/35beca46843e4adcbd43df1bc93ce38b?s=200&d=mm"
+            }
+        },
+        {
+            "time": "11:00",
+            "title": "PYTHON NA MANUTENÇÃO DE MAIS DE 100 MIL EMBARCADOS",
+            "place": "Sala Amethyst",
+            "about": "Nesta palestra será apresentada a solução implementada para centralizar, automatizar e permitir que qualquer máquina embarcada do case de um dos maiores Bancos do País seja acessada remotamente para tarefas de gerenciamento e manutenção. As manutenções são orquestradas pelo Fabric, paralelizando e agendando tarefas com o Celery e todo o sistema é mantido por um dashboard em Flask.",
+            "speaker": {
+                "name": "Tiago Assunção",
+                "avatar": "https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.684.684/14731341_1464292010254561_4304168150803178046_n.jpg?oh=2b75b81bbccb4952d4a827c6a54acde0&oe=5A84969F"
+            }
+        },
+        {
+            "time": "11:00",
+            "title": "COMO NÃO PROGRAMAR EM PYTHON: CRIMES DOLOSOS E COM AGRAVANTE",
+            "place": "Sala Crystal",
+            "about": "Todo bom programador já passou por uma fase na vida em que a POG (Programação Orientada a Gambiarra) foi sua melhor amiga. Junto com ela (ou até mesmo sem ela!), encontram-se erros comuns e alguns erros absurdos que são cometidos com frequência e que, na maioria das vezes passam despercebidos até mesmo por programadores experientes.  Nesta palestra, irei mostrar algumas dicas do que não fazer quando estiver programando em Python, utilizando como exemplos alguns códigos e erros que programadores (do Padawan ao Mestre Yoda) cometem sem nem sentir o peso.",
+            "speaker": {
+                "name": "Ryllari Santana",
+                "avatar": "https://avatars3.githubusercontent.com/u/15248191?v=4&s=460"
+            }
+        },
+        {
+            "time": "11:40",
+            "title": "Bots (automatizando tarefas) um funcionário que não reclama",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Nessa palestra quero falar de algumas implementações de bots em Python, dividindo em duas partes técnica e tendências. Na parte técnica vou falar de algumas implementações de bots para:\n 1. Facebook\n 2. Whatsapp\n 3. Telegram\n 4. Skype\n 5. Slack\n Na parte de tendências, vou falar um pouco do mercado de bots e empresas que estão apoiando como: Facebook, Microsoft e IBM",
+            "speaker": {
+                "name": "Elinaldo Monteiro",
+                "avatar": "https://www.gravatar.com/avatar/4c1463194810d6e37e73be12956f8760?s=300"
+            }
+        },
+        {
+            "time": "11:40",
+            "title": "Decifrando as Runas dos Anões com Python e Machado de Assis",
+            "place": "Sala Amethyst",
+            "about": "As runas do mapa de Thrór guiam a turma do livro \"O Hobbit\" em uma aventura para retomar a Montanha Solitária. Decifrar as runas e descobrir um caminho de entrada para Erebor é um dos primeiros desafios nessa jornada. Nessa palestra, vamos definir o problema de traduzir as runas, analisar possíveis estratégias de solução e finalmente usar livros do maior romancista do brasil para \"aprender português\" e resolver o problema.",
+            "speaker": {
+                "name": "Hélio de Meira Lins",
+                "avatar": "https://avatars0.githubusercontent.com/u/4183188?v=4"
+            }
+        },
+        {
+            "time": "11:40",
+            "title": "A Qualidade do Ecossistema Python - e o que podemos fazer para mantê-la ",
+            "place": "Sala Crystal",
+            "about": "O ecossistema do Python é sustentado por alguns pilares que são - comunidade,  - material teórico, - ferramentas, - bibliotecas, - PSF - e a própria linguagem.  Nesta palestra eu gostaria de fazer uma reflexão a respeito de cada um desses pilares do ecossistema quais são as prioridades e em termos de qualidade quais são as vulnerabilidades de cada um deles.  Mencionarei a importãncia de todos mas focarei na qualidade do ecossistema de bibliotecas, ferramentas e material teórico.  A reflexão será em torno de responder algumas questões: - Como manter a qualidade das bibliotecas publicadas no PyPI?  - Quais as maiores vulnerabilidades e como podemos ajudar a evitar os riscos?  - A importância de material teórico de qualidade (gerado pela comunidade) - Podemos confiar em tudo que está disponivel no PyPI?  - As abordagens de ensino e documentação do ecossitema são seguras, inclusivas e de fácil assimilação?  - O que podemos fazer para ajudar a resolver os problemas identificados?  Apresentarei alguns casos reais e exemplos de problemas encontrados e questões de segurança envolvendo principalmente o PyPI",
+            "speaker": {
+                "name": "Bruno Rocha",
+                "avatar": "https://avatars1.githubusercontent.com/u/458654?v=3"
+            }
+        },
+        {
+            "time": "12:15",
+            "title": "Almoço",
+            "icon": "food"
+        },
+        {
+            "time": "14:00",
+            "title": "GraphQL: nem sempre REST é a melhor alternativa para sua API",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Você passa horas definindo sua API REST seguindo as boas práticas de definição e acesso a recursos, para no final das contas acabar criando endpoints a mais, afim de não prejudicar a performance da sua aplicação? Por mais que você procure definir uma sintaxe universal para definir os recursos da sua API REST, você acaba tendo algumas views da sua aplicação que precisa realizar mais de uma requisição para que possa exibir todos os dados necessários? Esses talvez sejam alguns sinais de que sua API não necessariamente precise seguir os princípios REST.  Para resolver esse problema, o Facebook criou o GraphQL: uma linguagem de consulta para APIs. O GraphQL permite a criação de um único endpoint \"inteligente\", capaz de responder perguntas complexas, ao invés de um conjunto de endpoints mais simples como proposto pela arquitetura REST. Nessa palestra, irei apresentar em mais detalhes sobre essa linguagem e estabelecer uma comparação com sistemas que utilizam a abordagem REST. Também irei falar sobre os principais componentes do GraphQL API e mostrar como podemos construir e consumir uma API usando GraphQL e Python.",
+            "speaker": {
+                "name": "Nicolle Cysneiros",
+                "avatar": "https://avatars0.githubusercontent.com/u/3246075?v=4"
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "Wrapping C libraries into Python interfaces",
+            "place": "Sala Amethyst",
+            "about": "Entenda como bibliotecas Python como PIL, ScyPy, Numpy fazem interface com módulos em C compilados disponível no sistema operacional. Nativamente o Python te permite fazer isso. Essa palestra visa apresentar os conceitos, os recursos do compilador/interpretador Python para permitir essa tipo de interação entre as linguagens. Um módulo C / Python será apresentado como exemplo.",
+            "speaker": {
+                "name": "Gustavo Pantuza",
+                "avatar": "https://avatars2.githubusercontent.com/u/759784?v=3"
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "Big Data com Apache Spark na Globo.com",
+            "place": "Sala Crystal",
+            "about": "Uma introdução ao mundo de Big Data com Apache Spark contextualizada dentro do ambiente da Globo.com. Aborda desde a definição de Big Data, a mudança de paradigma de programação para viabilizar a computação paralela, os diferenciais tecnológicos do Spark e as suas aplicações práticas na Globo.com. Finalizamos com uma breve demo do pyspark shell.",
+            "speaker": {
+                "name": "Daniela Petruzalek",
+                "avatar": "https://graph.facebook.com/v2.4/2156035871289568/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "14:40",
+            "title": "Plataforma distribuída de Microserviços ou, como a Olist funciona",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Nessa apresentação eu demonstro com detalhes como a arquitetura da Olist foi implementada usando microserviços distribuídos que se comunicam através de um sistema de mensageria baseado no pattern Publisher/Subscribers (PubSub). A plataforma Olist usa Python 3.6, Django, Django REST Framework, Loafer (asyncio), AWS SNS/SQS e PostgreSQL. Fazemos deployment no Heroku e desenvolvemos tudo isso com uma equipe distribuída por quase todas as regiões do Brasil (ainda falta um representante do Norte!).",
+            "speaker": {
+                "name": "Osvaldo Santana",
+                "avatar": "https://avatars1.githubusercontent.com/u/160418?v=4&s=460"
+            }
+        },
+        {
+            "time": "14:40",
+            "title": "Prevenindo dores de cabeça com linters e checagens automáticas",
+            "place": "Sala Amethyst",
+            "about": "É comum usar ferramentas como flake8 em Python, mas é raro usar ferramentas para checar problemas além do estilo de código. No entanto, linters e checagens automáticas podem trazer benefícios muito maiores. Code reviews são importantes, mas se uma programadora experiente sair da organização, todo conhecimento relacionado a qualidade detido por ela irá embora também. Uma maneira de prevenir isso é fazer com que os desenvolvedores experientes guardem seu conhecimento em linters. Ao invés de ensinar boas práticas mil vezes para programadores juniors, desenvolvedores experientes devem escrever ferramentas para fazer isso para eles. Ter esse \"conhecimento executável\" é uma boa maneira de garantir boas práticas duradouras em organizações. ",
+            "speaker": {
+                "name": "Flávio Juvenal",
+                "avatar": "https://avatars1.githubusercontent.com/u/397989?v=4"
+            }
+        },
+        {
+            "time": "14:40",
+            "title": "Criando Web Crawlers com Scrapy e Selenium para páginas com Javascript",
+            "place": "Sala Crystal",
+            "about": "Já tentou acessar uma página através de um script Python e teve problemas porque a página usava algum framework javascript como Angular, React...? Nessa palestra vou mostrar como criar um web crawler que consiga acessar essas páginas dinâmicas simulando um navegador com Scrapy e Selenium.",
+            "speaker": {
+                "name": "Gileno Filho",
+                "avatar": "https://avatars0.githubusercontent.com/u/223948?v=3"
+            }
+        },
+        {
+            "time": "15:20",
+            "title": "Python na Infraestrutura MySQL do Facebook",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Uma equipe de apenas 14 engenheiros cuida da infraestrutura do principal banco de dados do Facebook, suportando quase 1.9 bilhões de usuários/mês. Toda ação no Instagram, Messenger, WhatsApp e claro, no FB, passa direta ou indiretamente pela infra de dezenas de milhares de servidores que rodam MySQL. A linguagem usada pela equipe e por trás de toda a automação é Python. Nessa palestra, vamos mostrar como a linguagem possibilitou que chegássemos nessa escala, passando pela evolução, desafios e futuro: - Interfaces \"tipadas\" com Thrift; - Empacotamento através do Buck; - Type Checking com MyPy; - Asyncio para novos serviços; - Debugging com gdb 7 e pudb; Durante a palestra, também passaremos por algumas decisões de DevOps que podem inspirar novas soluções: gerenciamento de uma frota massiva de servidores, multitenancy e sharding, backups e restores contínuos, schema migrations, entre outros",
+            "speaker": {
+                "name": "Artur Rodrigues",
+                "avatar": "https://avatars4.githubusercontent.com/u/119276?v=4"
+            }
+        },
+        {
+            "time": "15:20",
+            "title": "Desafios e vantagens do trabalho remoto freelancer python.",
+            "place": "Sala Amethyst",
+            "about": "Em novembro de 2015 comecei com a Toptal e desde então tenho trabalhado como desenvolvedor Freelancer remoto. Nesta palestra pretendo falar um pouco dos vários desafios que envolvem este tipo de trabalho, desde as necessidades técnicas até as questões financeiras de como receber e tudo mais. Além dos desafios, quer mostrar as várias vantagens que encontrei neste modelo de trabalho nestes 2 anos.",
+            "speaker": {
+                "name": "Julio Cesar Eiras",
+                "avatar": "https://avatars3.githubusercontent.com/u/2574306?v=3"
+            }
+        },
+        {
+            "time": "15:20",
+            "title": "Redes Neurais com Python e Scikit",
+            "place": "Sala Crystal",
+            "about": "A idéia dessa palestra é passar brevemente pela introdução à Redes Neurais e mostrar a implementação de uma rede neural, mostrando como utilizar Python e Scikit para criar redes supervisionadas e não-supervisionadas.",
+            "speaker": {
+                "name": "Bianca Rosa",
+                "avatar": "https://avatars0.githubusercontent.com/u/1480558?v=4"
+            }
+        },
+        {
+            "time": "16:00",
+            "title": "Coffee Break",
+            "icon": "coffee"
+        },
+        {
+            "time": "16:30",
+            "title": "Lightning Talks",
+            "icon": "flash"
+        },
+        {
+            "time": "17:00",
+            "title": "KEYNOTE",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Manuel é o fundador da \"Argentina en Python\", organizador de cerca de 40 eventos para ensinar Python em mais de 5 países latino-americanos em suas viajens de carro. Este ano foi nomeado \"Embaixador Python\" pela Python Software Foundation por causa de seu trabalho na comunidade. Hoje trabalha na Mozio construindo o futuro do transporte terrestre.",
+            "speaker": {
+                "name": "Manuel Kaufmann",
+                "avatar": "http://2017.pythonbrasil.org.br/images/speakers/manuel-kaufmann.jpg"
+            },
+            "icon": "star-circle"
+        },
+        {
+            "time": "18:00",
+            "title": "Encerramento"
+        }
+    ],
+    "7": [
+         {
+            "time": "08:30",
+            "title": "CREDENCIAMENTO"
+        },
+        {
+            "time": "09:00",
+            "title": "Lightning Talks",
+            "icon": "flash"
+        },
+        {
+            "time": "09:40",
+            "title": "KEYNOTE",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Engenheiro por formação, SRE por profissão, pai, hacker e malabarista por diversão. Trabalha no Google há dez anos, atualmente em Zurique como Site Reliability Engineer.",
+            "speaker": {
+                "name": "Rodolpho Eckhardt",
+                "avatar": "http://2017.pythonbrasil.org.br/images/speakers/rodolpho-eckhardt.jpg"
+            },
+            "icon": "star-circle"
+        },
+        {
+            "time": "10:30",
+            "title": "COFFEE BREAK",
+            "icon": "coffee"
+        },
+        {
+            "time": "11:00",
+            "title": "Agilizando o ciclo de desenvolvimento de software com a ajuda de testes unitários",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Quantas vezes você já ouviu (ou mesmo disse) que \"Desenvolver testes são uma perda de tempo?\". Nesta talk iremos demostrar porque você deve incluir os testes no seu ciclo de desenvolvimento e o real ganho disso para o projeto.",
+            "speaker": {
+                "name": "Paula Grangeiro",
+                "avatar": "https://graph.facebook.com/v2.4/865201390216236/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "11:00",
+            "title": "Salvando grandes projetos",
+            "place": "Sala Amethyst",
+            "about": "Desenvolvedores sabem: não existe software livre de bugs. Crises são iminentes. Como mitigar, então, seu potencial danoso? Como gerenciar, por exemplo, um bug que afeta metade dos usuários de um sistema? Nesta talk eu irei compartilhar, entre outros casos, minha experiência gerenciando crises de um sistema de assinaturas sediado em NY. Iremos ver diferentes cases, possíveis fragilidades de código que podem levar a bugs graves e o passo a passo de processos de gestão de crises. Finalmente, veremos como lidar com a expectativa do cliente, desde a descoberta do bug até a recuperação dos dados afetados.",
+            "speaker": {
+                "name": "Lais Varejão",
+                "avatar": "https://lh6.googleusercontent.com/-q-D1R6lcFnU/AAAAAAAAAAI/AAAAAAAAA1U/UJu8Vin1e-c/photo.jpg"
+            }
+        },
+        {
+            "time": "11:00",
+            "title": "Kivy: Python no celular e em vários outros lugares!",
+            "place": "Sala Crystal",
+            "about": "Kivy é um framework multiplataforma que permite fazer aplicações em Python com interfaces inovadoras para Linux, Windows, OS X, Android e iOS. E é um dos projetos em Python mais legais que tem, só que ainda é muito pouco utilizado. O objetivo dessa palestra é apresentar o Kivy, mostrar o que é possível fazer com ele e indicar o caminho pros primeiros passos.  Algumas perguntas que serão respondidas: - Funciona mesmo no celular? A performance é decente? Não fica feio?  - Consigo acessar os recursos do celular?  - Tem algum projeto em produção pra gente ver? O povo usa mesmo?  - Exemplos! Cadê exemplos de projetos livres usando Kivy pra eu aprender?  Algumas observações que não perguntam, e por isso mesmo que vou falar: - Kivy *NÃO* e só pra celular! (vc não precisa usar gtk ou qt pra botar uma interface visual no seu programa que roda no computador) - A Kv Lang (linguagem de marcação do Kivy, usada para criar as interfaces) é muito boa - Dá pra fazer jogo!",
+			 "speaker": {
+                "name": "Diego Guimarães",
+                "avatar": "https://avatars2.githubusercontent.com/u/188964?v=4"
+            }
+        },
+        {
+            "time": "11:40",
+            "title": "The Walking Dev",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Um conto fantástico sobre as ciladas que transforma devs em zumbis, deixando escapar por entre os dedos a janela de oportunidades do presente.\n Nesta apresentação você vai se imunizar contra as buzzwords para seguir a sua carreira sem sucumbir às hypes.",
+            "speaker": {
+                "name": "Henrique Bastos",
+                "avatar": "https://graph.facebook.com/v2.4/10154034810828098/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "11:40",
+            "title": "Django Migrations: para entender e perder o medo",
+            "place": "Sala Amethyst",
+            "about": "Você está começando com Django e quer entender como funciona e também como aproveitar o framework de migrações do Django da melhor maneira? Vou explicar como utilizar as migrações para resolver alguns cenários comuns - e outros não tão comuns assim - que enfrentamos com exemplos simples e práticos.",
+            "speaker": {
+                "name": "Kátia Nakamura",
+                "avatar": "https://lh5.googleusercontent.com/-1QIpEAR2Qe8/AAAAAAAAAAI/AAAAAAAAABM/clGha7XEWR4/photo.jpg"
+            }
+        },
+        {
+            "time": "11:40",
+            "title": "Descomplicando os mocks",
+            "place": "Sala Crystal",
+            "about": "Testar unitariamente é fácil, mas quando temos uma dependência externa no nosso código, a implementação do teste acaba demorando quando não sabemos usar direito os \"paranauês\" do mock.  Nessa palestra vou mostrar na prática as diversas maneiras de mockar objetos e isolar seu código testável de dependência externas como APIs e bancos de dados. Falarei brevemente de teste unitário, qualidade de código até me aprofundar sobre mocks no python.",
+            "speaker": {
+                "name": "Douglas Bastos",
+                "avatar": "https://lh4.googleusercontent.com/-JTYOOwJIr0A/AAAAAAAAAAI/AAAAAAAAHEQ/vWMkwztjsKw/photo.jpg"
+            }
+        },
+        {
+            "time": "12:15",
+            "title": "Almoço",
+            "icon": "food"
+        },
+        {
+            "time": "14:00",
+            "title": "Concorrência e Paralelismo - Threads, Múltiplos processos e ASYNCIO",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Locks? GIL? Multitasking? Corrotinas? Tulip ? async?  await?  event loop? Se tudo isso não faz sentido pra você, o objetivo dessa palestra é mudar isso, dando desde uma explicação sobre concorrência e paralelismo até o estado atual da comunidade, do ferramental, dos benefícios e onde AsyncIO se encaixa.",
+            "speaker": {
+                "name": "Diogo Martins",
+                "avatar": "https://avatars3.githubusercontent.com/u/6271498?v=3"
+            }
+        },
+        {
+            "time": "14:00",
+            "title": "Associação Python Brasil"
+        },
+        {
+            "time": "14:00",
+            "title": "Gênero e Número: Python ajudando nas questões de gênero brasileiras",
+            "place": "Sala Crystal",
+            "about": "Gênero e Número é uma iniciativa independente de jornalismo com o objetivo de aprofundar o debate sobre gênero que levanta, trata e expõe dados e evidências em conteúdos de múltiplos formatos - com reportagens em texto e em vídeo, visualizações de dados interativas, ou mesmo apresentando os bancos de dados construídos ou analisados ao longo das apurações. Transparência é um valor inegociável no nosso trabalho. Toda a parte de captura, conversão e boa parte da análise de nossos dados é feita utilizando Python, baseada em dados abertos e utilizando software livre. Nesta palestra serão apresentadas as principais reportagens feitas pelo projeto e os respectivos scripts Python utilizados, nos seguintes temas: esportes, política, educação e espaço público.",
+            "speaker": {
+                "name": "Álvaro Justen",
+                "avatar": "https://avatars2.githubusercontent.com/u/186126?v=3"
+            }
+        },
+        {
+            "time": "14:40",
+            "title": "Python, ciência dos dados e redes sociais: uma combinação poderosa",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Redes sociais, originalmente concebidas como ferramentas de comunicação, estão sendo cada vez mais utilizadas como ferramentas inovadoras de coleta de dados para aplicações de monitoramento social e urbano. Aliando Python, ciência dos dados e redes sociais, pode-se obter uma fonte de informação útil sobre diversos aspectos do nosso cotidiano. Desta forma, aplicações interessantes vem surgindo, como estudos de comportamentos epidemiológicos, de monitoramento socioeconômico e de análise da dinâmica das cidades. Nesta palestra, vamos falar sobre como os dados provenientes de redes sociais podem ser combinados com os conceitos de ciências dos dados e as diversas ferramentas Python, de forma que possamos obter informações úteis.",
+            "speaker": {
+                "name": "Alice Adativa",
+                "avatar": "https://www.gravatar.com/avatar/95cdd9a367bf07112a7f3ea0e7ebd0dc?s=40&d=mm"
+            }
+        },
+        {
+            "time": "14:40",
+            "title": "Associação Python Brasil"
+        },
+        {
+            "time": "14:40",
+            "title": "Generators e Programação Assíncrona com Python",
+            "place": "Sala Crystal",
+            "about": "Entenda o que signfica os \"yield\" que você encontra no código e para o que eles servem. Também entenda como isso permitiu a programação assincrona com corotinas. Vamos abordar também como o Assync / Await do Python 3.5 deixou tudo ainda melhor e mais claro.",
+            "speaker": {
+                "name": "Thomaz de Oliveira dos Reis",
+                "avatar": "https://lh5.googleusercontent.com/-AQB28vqL2bQ/AAAAAAAAAAI/AAAAAAAACqU/1XxemlUFxRs/photo.jpg"
+            }
+        },
+        {
+            "time": "15:20",
+            "title": "Análise de imagens e machine learning utilizando Python e OpenCV",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Nessa palestra será apresentada algumas das técnicas utilizadas em processamento, analise e classificação de imagens e a implementação.",
+            "speaker": {
+                "name": "Paula Santos",
+                "avatar": "https://graph.facebook.com/v2.4/904912869648916/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "15:20",
+            "title": "Associação Python Brasil"
+        },
+        {
+            "time": "15:20",
+            "title": "Python Runtime sem GIL em Golang: Grumpy",
+            "place": "Sala Crystal",
+            "about": "Grumpy é um \"transpiler\" de Python para Golang, uma maneira de usar a velocidade, concorrência e paralelismo de Go escrevendo com a produtividade do código Python. Está sendo desenvolvido no Google pelas pessoas ligadas ao Youtube como alternativa a reescrever manualmente grande quantidade de código Python existente. Grumpy \"traduz\" seu código Python para ser compilado em Go. Isso funciona muito bem mas introduz certos desafios, como incompatibilidade com a C-API do CPython e ausência das chamadas exec, eval e compile, por exemplo.  Será apresentado em 3 partes, com comparativos, exemplos e demonstrações: Concorrência e Paralelismo no CPython e Go Runtime, Grumpy Transpiler como alternativa ao CPython Runtime, Internals e desafios do runtime Grumpy",
+			 "speaker": {
+                "name": "Alan Justino da Silva",
+                "avatar": "https://avatars0.githubusercontent.com/u/155623?v=3"
+            }
+        },
+        {
+            "time": "16:00",
+            "title": "Coffee Break",
+            "icon": "coffee"
+        },
+        {
+            "time": "16:30",
+            "title": "Lightning Talks",
+            "icon": "flash"
+        },
+        {
+            "time": "17:00",
+            "title": "KEYNOTE",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Allison é uma engenheira de software que reside em São Francisco, e trabalha para uma pequena startup que automatiza processos contábeis para empresas. Ela já trabalhou no Dropbox e no Recurse Center, um retiro educacional para programadores em Nova York e escreve para akaptur.com",
+            "speaker": {
+                "name": "Allison Kaptur",
+                "avatar": "http://2017.pythonbrasil.org.br/images/speakers/allison-kaptur.jpg"
+            },
+            "icon": "star-circle"
+        },
+        {
+            "time": "18:00",
+            "title": "Encerramento"
+        },
+		{
+			"time": "19:00",
+			"title": "Django Day",
+			"about": "O DjangoDay será um evento para reunir a comunidade desenvolvedora de Django do Brasil. Mais informações aqui.  O evento terá inscrição separada da PythonBrasil e pode ser feita no Sympla.  Quer apresentar uma palestra? Envie no SpeakerFight!",
+			"speaker": {
+				"name": "Django Day",
+				"avatar": "./data/assets/logo.png"
+			}
+		}
+    ],
+    "8": [
+         {
+            "time": "08:30",
+            "title": "CREDENCIAMENTO"
+        },
+        {
+            "time": "09:00",
+            "title": "Lightning Talks",
+			"icon": "flash"
+        },
+        {
+            "time": "09:40",
+            "title": "Padrões Arquiteturais, muito além do MVC",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Sempre que iniciamos um novo projeto queremos que ele seja perfeito, o código tem que ser bem escrito, com alta coesão, baixo acoplamento, SOLID, KISS, DRY, YAGNI, testes automatizados e padrões de código, mas um ponto que nem sempre refletimos é sobre a estrutura da aplicação. Meu objetivo nessa palestra é apresentar alguns padrões arquiteturais (MVC, event-driven, microservices e pipe and filter) em Python, utilizando exemplos de frameworks como Django, Flask e Tornado, e te ajudar a entender como eles funcionam.",
+            "speaker": {
+                "name": "Darlene Medeiros",
+                "avatar": "https://avatars3.githubusercontent.com/u/850280?v=4&s=460"
+            }
+        },
+        {
+            "time": "09:40",
+            "title": "Previsão de séries temporais com PyData e Inteligência Artificial",
+            "place": "Sala Amethyst",
+            "about": "Uma previsão correta sobre um conjunto de dados observados pode significar milhões de lucro para uma empresa, ao mesmo tempo que uma previsão errada pode levar outra empresa a falência. Nessa palestra você vai ver como utilizar alguns módulos do PyData (Pandas, numpy e outras) e algumas técnicas de Inteligência Artificial (redes neurais, computação evolucionária, inteligência de enxames) para resolver problemas reais de previsão.",
+            "speaker": {
+                "name": "Rebeca Sarai",
+                "avatar": "https://avatars2.githubusercontent.com/u/17428455?v=3"
+            }
+        },
+		{
+            "time": "09:40",
+            "title": "Projetos de APIs: O que pensar para APIs Públicas, Microserviços e SPAs",
+            "place": "Sala Crystal",
+            "about": "APIs conectam app a apps dando escalabildiade para produtos e negócios. Um bom projeto de API deixa sua aplicação segura, estável e escalável, deixando o negócio estável para internet ou mesmo internamente.  Nesta talk, irei falar sobre o que levar em consideração quando se projeta uma API, as diferenças de arquitetura para o backend que provê uma API Pública, Microserviços ou SPA e como manter o seu serviço principal estável mesmo com uma API externa com grande volume de requisições.  Também falarei de como projetar o seu schema para mudanças futuras, como escolher o tipo de schema (XML ou JSON), problemas de versionamento da API, autenticação e REST ou SOAP. Com esta talk você estará mais apto a tomar boas decisões na arquitetura da sua API.",
+            "speaker": {
+                "name": "Celso Crivelaro",
+                "avatar": "https://avatars1.githubusercontent.com/u/805582?v=4"
+            }
+        },
+        {
+            "time": "10:15",
+            "title": "COFFEE BREAK",
+            "icon": "coffee"
+        },
+        {
+            "time": "10:45",
+            "title": "O Flask roubou meu coração",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Vou falar sobre o meu relacionamento com o Flask depois de anos em uma paixão adolescente com o Django.  Nesta Talk você vai ver: - Uma MINI comparação entre os dois (Para mostrar a diferença) - Cada etapa deste novo relacionamento - O que eu aprendi com esse relacionamento - O que eu mais gostei no Flask - O que eu mais senti falta - O que eu não senti falta - Na minha humilde opinião, quando usar Django ou Flask?",
+            "speaker": {
+                "name": "Talita Rossari",
+                "avatar": "https://graph.facebook.com/v2.4/800133810122133/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "10:45",
+            "title": "Navegando por grafos com Python",
+            "place": "Sala Amethyst",
+            "about": "O mundo vai muito além do postgres ou mysql! Nessa apresentação, vou falar um pouco sobre o Neo4j, um banco de dados orientado a grafos, quais possíveis aplicações que podem se beneficiar do seu uso e exemplos de integração com Python utilizando as bibliotecas py2neo e networkx. Pretendo falar sobre: 1 - Apresentar conceitualmente sobre grafos e sobre sua utilidade; 2 - Apresentar o Neo4j com algumas operações básicas; 3 - Mostrar um exemplo em Python que: - crie um grafo com vários nós; - crie relações dentro desse grafo com pesos específicos - mostrar duas análises (menor caminho e centralidade) a partir do grafo",
+            "speaker": {
+                "name": "Bernardo Fontes",
+                "avatar": "https://graph.facebook.com/v2.4/100000286121230/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "10:45",
+            "title": "Trabalhando com código legado",
+            "place": "Sala Crystal",
+            "about": "Software é um organismo vivo. Ele nasce, cresce e algumas vezes, adoece. Trabalhar com código legado é uma experiência que todo programador já passou ou irá passar em sua carreira. É muito comum encontrar código repetido, que você não sabe se funciona ou até se está sendo usado. Nesta palestra vou dar algumas dicas de como melhorar a saúde da sua base de código e falar de algumas técnicas de refatoração.",
+            "speaker": {
+                "name": "Renato dos Santos Oliveira",
+                "avatar": "https://avatars2.githubusercontent.com/u/613912?v=4"
+            }
+        },
+        {
+            "time": "11:25",
+            "title": "Facebook Job Engine (FBJE): a framework for developing scalable workflows in Python",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "FBJE is a framework used at Facebook for developing workflows in Python.  It is extremely scalable as it uses a distributed scheduler to leverage multiple worker nodes. As workers join and leave the execution pool due to hardware volatility, running jobs automatically migrate to active nodes while persisting their contextual data. Logs from each individual job are forwarded and stored centrally for users to access directly, searched or aggregated in various ways. Its ability of running long lasting jobs, easily access to logs and creating jobs using an API has made FBJE very popular for implementing a variety of automation workflows ranging from hardware provisioning, software deployment and alarms auto-remediation.",
+            "speaker": {
+                "name": "Navid Sheikhol",
+                "avatar": "https://graph.facebook.com/v2.4/10154587453977411/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "11:25",
+            "title": "O que desenvolvedores deveriam aprender sobre design?",
+            "place": "Sala Amethyst",
+            "about": "Design não foi uma parte inicial da revolução da web. Basta lembrar das primeiras versões do Google ou Yahoo para perceber que, quando os primeiros softwares surgiram, a única preocupação era com o código, enquanto usabilidade e estética seriam questões ainda muito futuras. O importante era ter um website, e não um que garantisse uma boa experiência pro usuário.  Com o surgimento de novas empresas e aumento de concorrentes, a qualidade dos produtos aumentou drasticamente e hoje design realmente importa tanto quanto a tecnologia. Ainda assim, apesar de designers e devs viverem em overlapping worlds, suas atividades são muito distintas. Compartilhar habilidades e aprender a falar a língua do outro é essencial para comunicar ideias. O que então você, como desenvolvedor, deve aprender para facilitar na comunicação com o designer no seu time, ou o que fazer quando ele não está disponível (ou nem mesmo existe)? Esta palestra tem como objetivo aumentar a sua consciência de design. Isto significa entender inicialmente o que é um \"bom design\", discutir como o processo de criação pode ser incorporado no desenvolvimento de software, além de mostrar como é possível, através da aplicação de alguns conceitos simples, melhorar a experiência das interfaces desenvolvidas.",
+            "speaker": {
+                "name": "Débora Correia",
+                "avatar": "https://avatars.githubusercontent.com/u/5848493?v=3"
+            }
+        },
+        {
+            "time": "11:25",
+            "title": "Começando com Python - Aprendendo para ensinar, a melhor forma de programar!",
+            "place": "Sala Crystal",
+            "about": "Quem nunca teve medo de começar? Nesta talk contarei para você sobre como tem sido a experiência com Python durante 1 ano de aprendizado e como foi começar a aprender Python para ensinar para outras meninas na primeira iniciativa feminina de tecnologia do Piauí.",
+            "speaker": {
+                "name": "Ana Paula Mendes",
+                "avatar": "https://graph.facebook.com/v2.4/2050141818543450/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "12:00",
+            "title": "Almoço",
+            "icon": "food"
+        },
+        {
+            "time": "13:40",
+            "title": "PyLadies e Django Girls promovendo a diversidade na tecnologia",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "2017 foi o ano em que ocorreram mais Django Girls no Brasil. Em sua maioria, as organizadoradoras dos workshops também fazem parte das PyLadies. Venha conhecer um panorama de como foi o trabalho desse ano de trazer mais mulheres pro mundo da tecnologia.",
+            "speaker": {
+                "name": "Pyladies Brasil",
+                "avatar": "http://brasil.pyladies.com/images/pyladies-brasil-logo.png"
+            }
+        },
+        {
+            "time": "13:40",
+            "title": "A Programação Funcional em Python, de forma simples",
+            "place": "Sala Amethyst",
+            "about": "Se você já usou lambda, maps ou comprehensions em Python, você já esta usando aspectos da programação funcional. Vamos explicar de forma simples o que é programação funcional, quais são as construções funcionais existentes em Python e como podemos usá-las para melhorar nosso código e prevenir bugs. Vamos  também descomplicar conceitos como Side Effects, imutabilidade, código declarativo, e expressions.",
+            "speaker": {
+                "name": "Anderson Resende",
+                "avatar": "https://graph.facebook.com/v2.4/1439665433025298/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "13:40",
+            "title": "Automatizando provisionamento de rede em data centers com arquitetura Spine and Leaf com Python",
+            "place": "Sala Crystal",
+            "about": "A ideia é apresentar a arquitetura Spine and Leaf utilizada com Fabric L3 ECMP, uma arquitetura projetada para garantir a escalabilidade, rapidez e eficiência do tráfego do data center da Globo.com.  Além disso, apresentar o desenvolvimento da ferramenta para provisionamento automatizado das redes e seus equipamentos escrita em Python.  * Conceito e vantagens da arquitetura Spine and Leaf * * Conceito e vantagens de Pod no Data Center * * Provisionamento automatizado utilizando uma ferramenta desenvolvida utilizando Python e Django.  * * ",
+			 "speaker": {
+                "name": "Laura Panzariello",
+                "avatar": "https://avatars3.githubusercontent.com/u/1640691?v=4&s=460"
+            }
+        },
+        {
+            "time": "14:20",
+            "title": "O fim de uma era: os desafios de transformar um monolito de 8 anos em microserviços",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "O \"Core\" é o CMS criado em 2009 com a missão de ser a base para a construção de todos os portais da Globo.com. 8 anos se passaram, a internet mudou, os desafios mudaram e é hora de aposentar esse soldado em grande estilo. Nessa talk falarei sobre como tem sido esse processo de aposentadoria, os desafios da migração dessa aplicação Django para uma nova arquitetura baseada em microserviços e como estamos fazendo isso com o menor impacto possível para os usuários e para os editores dos portais.",
+            "speaker": {
+                "name": "Rael Max",
+                "avatar": "https://avatars0.githubusercontent.com/u/459390?v=4"
+            }
+        },
+        {
+            "time": "14:20",
+            "title": "Python e tipagem estática",
+            "place": "Sala Amethyst",
+            "about": "Python é uma linguagem de tipagem forte e dinâmica, mas desde sua versão 3.5, com o módulo typing, é possível fazer uso de type hint(PEP 484) em conjunto com function annotation(PEP 3107).  Vamos discutir, ver exemplos de aplicação, (des)vantagens e onde/quando usar, ou não, tipagem gradual, quando teste unitário(mesmo cobertura de 100%) não pega casos que uma análise estática pega.  Outline Proposal: - Conceitos - Teoria dos tipos - Tipagem gradual - Opinião do Guido - PEPs - Aplicações práticas - Ajuda na migração Python 2 para 3 (Zulip) - Experiência própria no desenvolvimento - O que a tipagem fez a mais do que a cobertura - Integração - Como enforcing ocorre nos editores - Sublime, PyCharm, etc - pre-commit, CI, etc",
+			"speaker": {
+				"name": "Carlos Coêlho",
+                "avatar": "https://avatars0.githubusercontent.com/u/3460435?v=3"
+            }
+        },
+        {
+            "time": "15:00",
+            "title": "[Quase] Tudo que você precisa saber sobre tarefas assíncronas",
+            "place": "Sala Crystal",
+            "about": "Por quanto tempo é aceitável deixar o seu usuário esperando uma resposta do servidor? Para a maioria dos casos a resposta certa é: o mínimo que a conexão de internet dele permitir. Isso significa que o tempo que o seu servidor deve passar processando a requisição deve ser o mais próximo de zero possível. Nessa palestra vamos falar sobre o que são, para que servem, como  funcionam e quais são as boas práticas a se seguir quando estamos desenvolvendo tarefas assíncronas.",
+			 "speaker": {
+                "name": "Filipe Ximenes",
+                "avatar": "https://avatars3.githubusercontent.com/u/1180884?v=4"
+            }
+        },
+        {
+            "time": "15:00",
+            "title": "Linha de Comando: como ser bem implementada e segura",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "A Interface de Linha de Comando (CLI) é uma das interfaces de usuário mais flexível e poderosa. CLIs são as interfaces que eu mais utilizo trabalhando como Production Engineer para Facebook. Ter comandos bem estruturados, legíveis, não ambíguos e a prova de erro humano são características indispensáveis para que a CLI seja segura e fácil de usar. Nessa palestra, eu irei introduzir boas práticas utilizadas por linhas de comandos e como estruturar uma Interface de Linha de Comando do zero, ilustrando com exemplos de erros e acertos.",
+            "speaker": {
+                "name": "Carla Souza",
+                "avatar": "https://graph.facebook.com/v2.4/1418848041536021/picture?type=square&height=600&width=600&return_ssl_resources=1"
+            }
+        },
+        {
+            "time": "15:00",
+            "title": "Geometria Diferencial Computacional com Python e SVG: As Curvas da Bosta ",
+            "place": "Sala Amethyst",
+            "about": "Dizem que uma imagem diz mais do que mil palavras. Então, uma animação deve dizer mais do que mil elevado a tantos... Infelizmente a Matemática tem uma fama de além de ser chato, ser deficil. Agredita-se um fator decisiva ser o tradicional foco algébrico, acima do geométrico, no ensino desta disciplina, desde o ensino fundamental ate o nível universitário. Isto em todas as áreas, inclusive nas áreas mais ligadas à matemática, como informática.  Proponhe-se nesta palestra, usar a Geometria como um ponte de encontro entre calculos algébricos e computacionais (em Python) - e sua visualização/animação. Escolhemos implementar os cálculos em Python, primordialmente pela sutilidade desta linguagem possibilitar sobrecarregar operações u/binárias (como +, -, *,== e print, to name a few...), possibilitando expressões como u=v+w e v=w*3 (mas não 3*w...) entre vetores e até matrices. Para geração de imagens escolhemos SVG, por ser um formato textual, livre e escalável, permitindo a visualização de detalhes. Animamos seqüências de SVGs geradas, usando o Carousel (do W3 Schools).  Introduziremos conceitos básicos da Gemetria Diferencial - Velocidade, acceleração, comprimento arco e curvatura - através da exposição de código específico (Python) e animações Carousel/SVG. Particularmente, expormos como visualização dinâmica pode inspirar e coroborar um processo investigativo científico: uma visualização gerada computacionalmente, inspira um hipótese - e desenvolvendo mais as computações, providencia-se um meio para sua verificação.  As Curvas da Bosta, são curvas geradas por um ponto marcado numa circumferência, rolando, sem deslizar, em uma outra curva. Esta outra curva sendo uma reta (o eixo X), resulta em uma curva chamada Cicloid. Fazendo o mesmo no lado de fora, respectivamente lado de dentro, uma circumferência (fixa), as curvas geradas são Epicicloids, respectivamente Hipocicloids.  A evoluta de uma curva, é a curva traçada pelos seus centros de curvatura. Calculando numéricamente a evoluta de um Cicloid, levanta-se o suspeito, que sua evoluta é novamente uma evoluta. Verificamos, primeiro visualmente - depois matemáticamente - a hipotese",
+            "speaker": {
+                "name": "Ole",
+                "avatar": ""
+            }
+        },
+	    {
+            "time": "15:40",
+            "title": "Coffee Break",
+            "icon": "coffee"
+        },
+	    {
+            "time": "16:10",
+            "title": "Lightning Talks",
+            "icon": "flash"
+        },
+        {
+            "time": "16:50",
+            "title": "KEYNOTE",
+            "place": "Sala Aventurine e Alexandrite",
+            "about": "Andrew é desenvolvedor da equipe principal do Django, engenheiro sênior na Eventbrite e foi o author original do framework de migrations do Django, e de seu predecessor South. Agora escreve e mantêm o framework Channels em paralelo a um conjunto de sistemas SOA e bibliotecas de sistemas distribuídos.",
+            "speaker": {
+                "name": "Andrew Godwin",
+                "avatar": "http://2017.pythonbrasil.org.br/images/speakers/andrew_godwin.jpg"
+            },
+            "icon": "star-circle"
+        },
+        {
+            "time": "17:40",
+            "title": "Encerramento"
+        }
+    ],
+    "9": [],
+    "10": [],
+    "11": []
+}

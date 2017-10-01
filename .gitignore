@@ -102,10 +102,11 @@ venv.bak/
 .mypy_cache/
 
 # kivy atlas
-pybr/data/default.atlas
-pybr/data/default-0.png
+atlas.atlas
+atlas-*.png
 
 # buildozer
+!buildozer.spec
 .buildozer/
 bin/
 
