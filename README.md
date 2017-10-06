@@ -24,12 +24,14 @@ git clone https://github.com/ellisonleao/pybrapp.git
 ```
 $ cd pybrapp
 
-# first install Cython 0.25.2 version
-$ pip install Cython==0.25.2
+# first install Cython
+$ pip install -U Cython
 
 # install remanining dependencies
 $ pip install -r requirements.txt
 ```
+
+Disclaimer: This version is also installing `pygame` as the window provider. You can change it to SDL by following [these steps](https://kivy.org/docs/installation/installation-linux.html#dependencies-with-sdl2)
 
 3. Running
 
