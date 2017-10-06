@@ -112,3 +112,6 @@ bin/
 
 # cache folder
 cache/*
+
+# Mac
+.DS_Store
